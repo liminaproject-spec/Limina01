@@ -16,8 +16,9 @@ from core.lm_client import LMStudioClient
 from core.template_manager import TemplateManager
 from core.message_handler import MessageHandler
 from core.sender import MessageSender
+from core.database import Database
+from core.monitor import MessageMonitor
 
-# ─── Логирование ───────────────────────────────────────
 Path("logs").mkdir(exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
@@ -31,9 +32,10 @@ log = logging.getLogger("Assistant")
 
 
 async def main():
-    log.info("🚀 Запуск L. I. M. I. N. A....")
+    log.info("🚀 Запуск Умного ТГ Ассистента...")
 
     settings = Settings.load()
+    db = Database()
     lm_client = LMStudioClient(settings)
     template_manager = TemplateManager(settings.templates_file)
     sender = MessageSender(None, settings)
@@ -42,12 +44,13 @@ async def main():
     sender.client = client
 
     handler = MessageHandler(settings, lm_client, template_manager, sender)
+    monitor = MessageMonitor(client, settings, db)
 
     await client.start(phone=settings.phone_number)
     me = await client.get_me()
     log.info(f"✅ Авторизован как: {me.first_name} (@{me.username})")
 
-    # ── Сообщения от ВЛАДЕЛЬЦА (тебя) ──────────────────
+    # ── 1. Команды от ВЛАДЕЛЬЦА ─────────────────────────
     @client.on(events.NewMessage(incoming=True, from_users=settings.owner_id))
     async def on_owner_message(event):
         text = event.raw_text.strip()
@@ -59,48 +62,47 @@ async def main():
         if response:
             await event.respond(response)
 
-    # ── Сообщения от ВСЕХ ОСТАЛЬНЫХ ────────────────────
-    # Это получатели которые отвечают через аккаунт ассистента
+    # ── 2. Все входящие → монитор ───────────────────────
     @client.on(events.NewMessage(incoming=True))
-    async def on_recipient_message(event):
-        sender_id = event.sender_id
-        # Пропускаем сообщения от владельца (они обрабатываются выше)
-        if sender_id == settings.owner_id:
-            return
-        # Пропускаем свои исходящие
-        if event.out:
-            return
+    async def on_any_incoming(event):
+        # Сначала монитор — логируем всё
+        await monitor.on_new_message(event)
 
-        text = event.raw_text.strip()
-        if not text:
+        # Потом проверяем — ответ через reply-систему?
+        if event.sender_id == settings.owner_id:
+            return  # владелец обрабатывается выше
+        if event.out:
             return
 
         try:
             sender_entity = await event.get_sender()
-            sender_username = f"@{sender_entity.username}" if sender_entity.username else str(sender_id)
+            sender_username = (
+                f"@{sender_entity.username}"
+                if getattr(sender_entity, "username", None)
+                else str(event.sender_id)
+            )
         except Exception:
-            sender_username = str(sender_id)
+            sender_username = str(event.sender_id)
 
-        log.info(f"📨 От получателя {sender_username}: {text[:60]}")
-
-        # Проверяем — это ответ через reply-систему?
         forwarded = await handler.process_incoming_from_recipient(
-            sender_id=sender_id,
+            sender_id=event.sender_id,
             sender_username=sender_username,
-            text=text,
+            text=event.raw_text or "",
         )
-
         if forwarded:
-            # Пересылаем тебе (владельцу)
-            try:
-                await client.send_message(settings.owner_id, forwarded)
-                log.info(f"✅ Ответ от {sender_username} переслан владельцу")
-                # Подтверждаем получателю
-                await event.respond("✅ Ваш ответ отправлен.")
-            except Exception as e:
-                log.error(f"Не удалось переслать ответ владельцу: {e}")
+            await client.send_message(settings.owner_id, forwarded)
+            await event.respond("✅ Ваш ответ отправлен.")
 
-    log.info("👂 Ассистент слушает... (Ctrl+C для остановки)")
+    # ── 3. Детект удалённых сообщений ───────────────────
+    @client.on(events.MessageDeleted())
+    async def on_message_deleted(event):
+        await monitor.on_deleted_message(event)
+
+    log.info("👂 Ассистент слушает...")
+    if settings.log_channels:
+        log.info(f"📡 Лог-каналов: {len(settings.log_channels)} → {settings.log_channels}")
+    else:
+        log.warning("⚠️ LOG_CHANNELS не заданы — мониторинг выключен")
     log.info(f"📋 Шаблонов: {len(template_manager.templates)}")
     log.info(f"🤖 LM Studio: {settings.lm_studio_url}")
 

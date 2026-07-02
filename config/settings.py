@@ -1,9 +1,7 @@
 """
 Настройки ассистента.
-Все секреты хранятся в .env файле — никогда не коммить его в git!
 """
 
-import json
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -14,63 +12,70 @@ load_dotenv()
 
 @dataclass
 class Settings:
-    # ── Telegram ────────────────────────────────────────
+    # Telegram
     api_id: int = 0
     api_hash: str = ""
-    phone_number: str = ""          # номер телефона аккаунта-ассистента
-    owner_id: int = 0               # твой Telegram ID (от кого слушать команды)
-    assistant_username: str = ""    # username аккаунта-ассистента (для логов)
+    phone_number: str = ""
+    owner_id: int = 0
+    assistant_username: str = ""
     session_file: str = "sessions/assistant"
 
-    # ── LM Studio ───────────────────────────────────────
+    # Мониторинг — каналы для логов
+    log_channels: list = field(default_factory=list)
+    # Аккаунты которые мониторим (пусто = только аккаунт ассистента)
+    monitored_accounts: list = field(default_factory=list)
+
+    # LM Studio
     lm_studio_url: str = "http://localhost:1234/v1"
-    lm_model: str = ""              # оставь пустым — возьмёт первую загруженную модель
+    lm_model: str = ""
     lm_max_tokens: int = 1024
     lm_temperature: float = 0.7
-    lm_timeout: int = 120           # секунд ждать ответа от модели
-
-    # ── Системный промпт для нейронки ───────────────────
+    lm_timeout: int = 120
     system_prompt: str = (
-        "Ты — умный личный ассистент. Отвечай кратко и по делу на русском языке. "
-        "Если тебя просят выполнить действие (отправить сообщение, использовать шаблон) — "
-        "возвращай структурированный ответ в формате JSON внутри тегов <action>...</action>. "
-        "Если это обычный вопрос — отвечай текстом."
+        "Ты — умный личный ассистент. Отвечай кратко и по делу на русском языке."
     )
 
-    # ── Файлы ───────────────────────────────────────────
+    # Файлы
     templates_file: str = "config/templates.json"
 
     @classmethod
     def load(cls) -> "Settings":
         s = cls()
 
-        # Telegram
         s.api_id = int(os.getenv("TG_API_ID", "0"))
         s.api_hash = os.getenv("TG_API_HASH", "")
         s.phone_number = os.getenv("TG_PHONE", "")
         s.owner_id = int(os.getenv("TG_OWNER_ID", "0"))
         s.assistant_username = os.getenv("TG_ASSISTANT_USERNAME", "unknown")
 
-        # LM Studio
+        # Лог-каналы: через запятую
+        # Пример: LOG_CHANNELS=-1001234567890,@my_log_channel
+        raw_channels = os.getenv("LOG_CHANNELS", "")
+        s.log_channels = [
+            c.strip() for c in raw_channels.split(",")
+            if c.strip()
+        ]
+        # Числовые ID конвертируем в int
+        s.log_channels = [
+            int(c) if c.lstrip("-").isdigit() else c
+            for c in s.log_channels
+        ]
+
         s.lm_studio_url = os.getenv("LM_STUDIO_URL", "http://localhost:1234/v1")
         s.lm_model = os.getenv("LM_MODEL", "")
         s.lm_max_tokens = int(os.getenv("LM_MAX_TOKENS", "1024"))
         s.lm_temperature = float(os.getenv("LM_TEMPERATURE", "0.7"))
         s.lm_timeout = int(os.getenv("LM_TIMEOUT", "120"))
 
-        # Системный промпт (можно переопределить в .env)
         custom_prompt = os.getenv("SYSTEM_PROMPT", "")
         if custom_prompt:
             s.system_prompt = custom_prompt
 
-        # Пути
         s.templates_file = os.getenv("TEMPLATES_FILE", "config/templates.json")
         s.session_file = os.getenv("SESSION_FILE", "sessions/assistant")
 
-        # Создаём папки если нет
-        Path("sessions").mkdir(exist_ok=True)
-        Path("logs").mkdir(exist_ok=True)
-        Path("config").mkdir(exist_ok=True)
+        for d in ["sessions", "logs", "config", "data"]:
+            Path(d).mkdir(exist_ok=True)
 
         s._validate()
         return s
@@ -86,7 +91,4 @@ class Settings:
         if not self.owner_id:
             errors.append("TG_OWNER_ID не задан")
         if errors:
-            raise ValueError(
-                "❌ Ошибки конфигурации:\n" + "\n".join(f"  • {e}" for e in errors)
-                + "\n\nПроверь файл .env"
-            )
+            raise ValueError("❌ Ошибки конфига:\n" + "\n".join(f"  • {e}" for e in errors))

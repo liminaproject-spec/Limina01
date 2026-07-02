@@ -1073,3 +1073,42 @@ AttributeError: 'NoneType' object has no attribute 'connect'
 2026-07-01 18:46:06,243 [INFO] Assistant: 📨 От получателя -1002497181539: 🔴 Apple получила предупреждение ФАС из-за нарушений требован
 2026-07-01 18:57:23,175 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
 2026-07-01 18:57:23,176 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-02 12:10:20,613 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-02 12:10:20,625 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-02 12:10:20,726 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-02 12:10:20,726 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-02 12:10:20,726 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-02 12:10:20,726 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-02 12:10:20,727 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-02 12:10:20,731 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-02 12:10:20,731 [INFO] Monitor: 📡 Монитор выключен (LOG_CHANNELS не заданы в .env)
+2026-07-02 12:10:20,731 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-02 12:10:20,734 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-02 12:10:22,208 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-02 12:10:22,208 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-02 12:10:22,208 [WARNING] Assistant: ⚠️ LOG_CHANNELS не заданы — мониторинг выключен
+2026-07-02 12:10:22,208 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-02 12:10:22,209 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-02 12:11:01,377 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-02 12:11:01,378 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-02 12:11:03,005 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-02 12:11:03,010 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-02 12:11:03,011 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-02 12:11:03,011 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-02 12:11:03,011 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-02 12:11:03,011 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-02 12:11:03,011 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-02 12:11:03,015 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-02 12:11:03,015 [INFO] Monitor: 📡 Монитор активен. Лог-каналов: 1
+2026-07-02 12:11:03,016 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-02 12:11:03,018 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-02 12:11:04,567 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-02 12:11:04,567 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-02 12:11:04,567 [INFO] Assistant: 📡 Лог-каналов: 1 → [-1003807073500]
+2026-07-02 12:11:04,567 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-02 12:11:04,567 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-02 12:12:07,048 [INFO] Assistant: 📨 От владельца: Hjo
+2026-07-02 12:12:07,115 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-02 12:12:31,567 [INFO] Monitor: 🗑 Удалено сообщение id=531 от @tester00131
+2026-07-02 12:13:09,665 [INFO] Assistant: 📨 От владельца: Тест 2
+2026-07-02 12:13:09,684 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
