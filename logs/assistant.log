@@ -1,0 +1,1075 @@
+2026-06-24 22:31:38,636 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-24 22:31:38,638 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-24 22:31:38,640 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-24 22:31:38,640 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-24 22:31:38,640 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-24 22:31:38,640 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-24 22:31:38,640 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-24 22:31:38,670 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-06-24 22:31:41,704 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-06-24 22:31:43,164 [INFO] telethon.client.users: Phone migrated to 1
+2026-06-24 22:31:43,464 [INFO] telethon.client.telegrambaseclient: Reconnecting to new data center 1
+2026-06-24 22:31:43,763 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-06-24 22:31:43,764 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-06-24 22:31:43,764 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-24 22:31:46,187 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-24 22:32:27,521 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-24 22:32:27,521 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-24 22:32:27,521 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-24 22:32:27,522 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-24 22:33:27,207 [INFO] Assistant: 📨 Сообщение от владельца: Лимина, привет как у тебя дела ?...
+2026-06-24 22:33:27,423 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 72, in on_owner_message
+    async with client.action(event.chat_id, "typing"):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 56, in __aenter__
+    self._chat = await self._client.get_input_entity(self._chat)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 468, in get_input_entity
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Could not find the input entity for PeerUser(user_id=5831585198) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+2026-06-24 22:33:42,728 [INFO] Assistant: 📨 Сообщение от владельца: 7...
+2026-06-24 22:33:42,944 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 72, in on_owner_message
+    async with client.action(event.chat_id, "typing"):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 56, in __aenter__
+    self._chat = await self._client.get_input_entity(self._chat)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 468, in get_input_entity
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Could not find the input entity for PeerUser(user_id=5831585198) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+2026-06-24 22:33:53,968 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-24 22:33:53,968 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-24 22:59:32,127 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-24 22:59:32,129 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-24 22:59:32,239 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-24 22:59:32,239 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-24 22:59:32,239 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-24 22:59:32,239 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-24 22:59:32,239 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-24 22:59:32,256 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-24 22:59:42,261 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-24 22:59:53,288 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-24 23:00:04,402 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-24 23:00:15,525 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-24 23:00:26,594 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-24 23:00:37,644 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-24 23:06:44,847 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-24 23:06:44,850 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-24 23:06:44,969 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-24 23:06:44,970 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-24 23:06:44,970 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-24 23:06:44,970 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-24 23:06:44,970 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-24 23:06:44,996 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-24 23:06:55,010 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-24 23:07:06,478 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-24 23:07:17,494 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-24 23:07:28,510 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-24 23:07:39,522 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-24 23:10:59,880 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-24 23:10:59,883 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-24 23:10:59,885 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-24 23:10:59,885 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-24 23:10:59,885 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-24 23:10:59,885 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-24 23:10:59,885 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-24 23:10:59,900 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-24 23:10:59,903 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-24 23:11:01,742 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-24 23:11:01,743 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-24 23:11:01,743 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-24 23:11:01,743 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-24 23:12:41,971 [INFO] Assistant: 📨 Сообщение от владельца: Лимина, привет напиши @armagedon72 сообщение: «тест драаайф»...
+2026-06-24 23:12:42,221 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 72, in on_owner_message
+    async with client.action(event.chat_id, "typing"):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 56, in __aenter__
+    self._chat = await self._client.get_input_entity(self._chat)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 468, in get_input_entity
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Could not find the input entity for PeerUser(user_id=5831585198) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+2026-06-25 11:08:08,527 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 11:08:08,529 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 11:08:08,622 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 11:08:08,622 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 11:08:08,623 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 11:08:08,623 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 11:08:08,623 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 11:08:08,634 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:08:08,637 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:08:10,335 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 11:08:10,336 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 11:08:10,336 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 11:08:10,336 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 11:10:04,419 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 11:10:04,516 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 11:10:04,516 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 11:10:04,578 [INFO] telethon.network.connection.connection: <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 11:10:04,578 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:10:14,582 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 11:10:25,643 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 11:10:36,660 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 11:10:37,673 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:11:10,661 [INFO] Assistant: 📨 Сообщение от владельца: Лимина, привет напиши @armagedon72 сообщение: «тест драаайф»...
+2026-06-25 11:11:12,739 [WARNING] LMStudio: Не удалось получить список моделей: Cannot connect to host localhost:1234 ssl:default [None]
+2026-06-25 11:11:14,776 [ERROR] LMStudio: Не удалось подключиться к LM Studio
+2026-06-25 11:11:15,236 [INFO] Assistant: ✅ Ответ отправлен: ⚠️ LM Studio недоступен. Убедись что:
+1. LM Studio запущен
+2. Включён локальный ...
+2026-06-25 11:18:47,830 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 11:18:47,830 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:18:49,580 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 11:18:49,581 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 11:18:49,582 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 11:18:49,583 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 11:18:49,583 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 11:18:49,583 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 11:18:49,583 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 11:18:49,585 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:18:49,587 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:18:51,279 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 11:18:51,279 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 11:18:51,279 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 11:18:51,279 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 11:23:14,941 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-06-25 11:23:14,941 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-06-25 11:23:14,942 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 11:23:14,942 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:23:24,945 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 11:23:35,968 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 11:23:46,982 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 11:23:57,994 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 11:24:09,020 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 11:24:20,048 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 11:24:21,052 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 1 with ConnectionError
+2026-06-25 11:24:21,099 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 11:24:21,099 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:28:26,827 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 11:28:26,828 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 11:28:26,829 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 11:28:26,830 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 11:28:26,830 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 11:28:26,830 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 11:28:26,830 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 11:28:26,842 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:28:26,846 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:28:28,564 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 11:28:28,564 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 11:28:28,564 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 11:28:28,564 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 11:28:45,464 [INFO] Assistant: 📨 Сообщение от владельца: Лимина, привет напиши @tester00131 сообщение: «тест драаайф»...
+2026-06-25 11:28:45,556 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-06-25 11:30:46,051 [ERROR] LMStudio: Таймаут ожидания ответа от LM Studio
+2026-06-25 11:30:46,519 [INFO] Assistant: ✅ Ответ отправлен: ⚠️ Модель думает слишком долго. Попробуй ещё раз или увеличь LM_TIMEOUT в .env...
+2026-06-25 11:32:40,323 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 11:32:40,324 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:32:43,295 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 11:32:43,297 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 11:32:43,298 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 11:32:43,298 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 11:32:43,298 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 11:32:43,298 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 11:32:43,298 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 11:32:43,300 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 11:32:43,303 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 11:32:45,140 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 11:32:45,140 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 11:32:45,140 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 11:32:45,140 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 11:33:17,670 [INFO] Assistant: 📨 Сообщение от владельца: сколько будет 2+2...
+2026-06-25 11:33:17,713 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-06-25 11:35:26,750 [INFO] Assistant: ✅ Ответ отправлен: 4...
+2026-06-25 11:35:37,790 [INFO] Assistant: 📨 Сообщение от владельца: Лимина, привет напиши @tester00131сообщение: «тест драаайф»...
+2026-06-25 11:35:37,796 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-06-25 11:40:38,045 [ERROR] LMStudio: Таймаут ожидания ответа от LM Studio
+2026-06-25 11:40:38,512 [INFO] Assistant: ✅ Ответ отправлен: ⚠️ Модель думает слишком долго. Попробуй ещё раз или увеличь LM_TIMEOUT в .env...
+2026-06-25 11:42:15,217 [INFO] Assistant: 📨 Сообщение от владельца: напиши @tester00131 q...
+2026-06-25 11:42:15,225 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-06-25 11:47:16,051 [ERROR] LMStudio: Таймаут ожидания ответа от LM Studio
+2026-06-25 11:47:16,529 [INFO] Assistant: ✅ Ответ отправлен: ⚠️ Модель думает слишком долго. Попробуй ещё раз или увеличь LM_TIMEOUT в .env...
+2026-06-25 12:02:51,858 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-06-25 12:02:51,859 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-06-25 12:02:51,860 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 12:02:51,860 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:02:51,890 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 12:03:02,905 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 12:03:13,917 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 12:03:24,936 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 12:03:35,946 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 12:03:46,963 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 12:03:47,975 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 1 with ConnectionError
+2026-06-25 12:03:48,986 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:03:59,002 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 12:04:10,012 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 12:04:21,026 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 12:04:32,047 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 12:04:43,069 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 12:04:54,093 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 12:04:55,101 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 2 with ConnectionError
+2026-06-25 12:04:56,111 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:05:06,116 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 12:05:17,144 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 12:05:28,169 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 12:05:39,190 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 12:05:50,213 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 12:06:01,230 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 12:06:02,240 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 3 with ConnectionError
+2026-06-25 12:06:03,251 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:06:13,261 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 12:06:24,286 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 12:06:35,305 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 12:06:46,330 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 12:06:57,338 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 12:07:08,360 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 12:07:09,367 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 4 with ConnectionError
+2026-06-25 12:07:10,380 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:07:20,383 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 12:07:31,412 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-06-25 12:07:42,418 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-06-25 12:07:53,435 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-06-25 12:08:04,448 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-06-25 12:08:15,462 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-06-25 12:08:16,472 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 5 with ConnectionError
+2026-06-25 12:08:17,484 [ERROR] telethon.network.mtprotosender: Automatic reconnection failed 5 time(s)
+2026-06-25 12:08:17,485 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 12:08:17,485 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 12:08:17,486 [ERROR] asyncio: ConnectionError exception in shielded future
+future: <Future finished exception=ConnectionError('Connection to Telegram failed 5 time(s)')>
+ConnectionError: Connection to Telegram failed 5 time(s)
+2026-06-25 12:08:17,489 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-06-25 12:34:22,089 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 12:34:22,092 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 12:34:22,094 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 12:34:22,094 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 12:34:22,094 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 12:34:22,094 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 12:34:22,095 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 12:34:22,108 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:34:32,116 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 12:34:33,126 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 12:34:34,820 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 12:34:34,820 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 12:34:34,820 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 12:34:34,820 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 12:35:11,389 [INFO] Assistant: 📨 Сообщение от владельца: напиши @tester00131 q...
+2026-06-25 12:35:11,427 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:35:15,324 [INFO] Assistant: ✅ Ответ отправлен: <action>
+  {
+    "message": "Напоминаю: @tester00131, @tester00131"
+  }
+</action...
+2026-06-25 12:35:59,368 [INFO] Assistant: 📨 Сообщение от владельца: напиши пользователью с юзом @tester00131 привет !...
+2026-06-25 12:35:59,374 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:36:01,653 [INFO] Assistant: ✅ Ответ отправлен: <action>
+  {
+    "message": "@tester00131, Привет!"
+  }
+</action>...
+2026-06-25 12:38:07,820 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 12:38:07,821 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 12:38:09,367 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 12:38:09,369 [INFO] Assistant: ✅ Конфиг загружен. Аккаунт ассистента: @L_imin_a
+2026-06-25 12:38:09,370 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 12:38:09,370 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 12:38:09,370 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 12:38:09,370 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 12:38:09,370 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 12:38:09,372 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 12:38:09,375 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 12:38:11,077 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 12:38:11,077 [INFO] Assistant: 👂 Ассистент слушает сообщения... (Ctrl+C для остановки)
+2026-06-25 12:38:11,077 [INFO] Assistant: 📋 Шаблонов загружено: 5
+2026-06-25 12:38:11,077 [INFO] Assistant: 🤖 LM Studio endpoint: http://localhost:1234/v1
+2026-06-25 12:38:26,190 [INFO] Assistant: 📨 Сообщение от владельца: напиши пользователью с юзом @tester00131 привет !...
+2026-06-25 12:38:26,191 [INFO] MessageHandler: 📤 Прямая отправка → @tester00131: пользователью с юзом привет !...
+2026-06-25 12:38:26,191 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 12:38:26,672 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 12:38:27,137 [INFO] Assistant: ✅ Ответ отправлен: ✅ Отправлено @tester00131:
+
+пользователью с юзом привет !...
+2026-06-25 12:39:19,694 [INFO] Assistant: 📨 Сообщение от владельца: привет чувак пиши через ассисента для аннонисмнсоити как у тебя дела ?  @tester0...
+2026-06-25 12:39:19,716 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:39:22,025 [INFO] Assistant: ✅ Ответ отправлен: ❓ Нейронка вернула неполное действие. Уточни кому и что написать....
+2026-06-25 12:39:37,702 [INFO] Assistant: 📨 Сообщение от владельца: привет чувак пиши через ассисента для аннонисмнсоити как у тебя дела ?  напши эт...
+2026-06-25 12:39:37,708 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:39:40,375 [INFO] Assistant: ✅ Ответ отправлен: Вот сообщение, которое ты можешь отправить пользователю @tester00131:
+
+"Привет! ...
+2026-06-25 12:41:12,731 [INFO] Assistant: 📨 Сообщение от владельца: напши этому  пользователю @tester00131 привет чувак пиши через ассисента для анн...
+2026-06-25 12:41:12,738 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:41:16,029 [INFO] Assistant: ✅ Ответ отправлен: ❓ Нейронка вернула неполное действие. Уточни кому и что написать....
+2026-06-25 12:41:42,217 [INFO] Assistant: 📨 Сообщение от владельца: напиши пользователью с юзом @tester00131 следущие сообщение: Привет чкшпан...
+2026-06-25 12:41:42,217 [INFO] MessageHandler: 📤 Прямая отправка → @tester00131: пользователью с юзом следущие сообщение: Привет чкшпан...
+2026-06-25 12:41:42,217 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 12:41:42,841 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 12:41:43,305 [INFO] Assistant: ✅ Ответ отправлен: ✅ Отправлено @tester00131:
+
+пользователью с юзом следущие сообщение: Привет чкшп...
+2026-06-25 12:43:09,150 [INFO] Assistant: 📨 Сообщение от владельца: Отправь  @tester00131 чушпан как дела ?...
+2026-06-25 12:43:09,150 [INFO] MessageHandler: 📤 Прямая отправка → @tester00131: чушпан как дела ?...
+2026-06-25 12:43:09,150 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 12:43:09,614 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 12:43:10,078 [INFO] Assistant: ✅ Ответ отправлен: ✅ Отправлено @tester00131:
+
+чушпан как дела ?...
+2026-06-25 12:53:06,220 [INFO] Assistant: 📨 Сообщение от владельца: Отправь @Shanel_shhmarberlin Привет чушпанье 👍...
+2026-06-25 12:53:06,222 [INFO] MessageHandler: 📤 Прямая отправка → @Shanel_shhmarberlin: Привет чушпанье 👍...
+2026-06-25 12:53:06,222 [INFO] Sender: 📤 Отправка сообщения для: @Shanel_shhmarberlin
+2026-06-25 12:53:06,673 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 12:53:07,137 [INFO] Assistant: ✅ Ответ отправлен: ❌ Не удалось отправить @Shanel_shhmarberlin: Telegram ограничил отправку. Подожд...
+2026-06-25 12:54:12,784 [INFO] Assistant: 📨 Сообщение от владельца: напиши пользователью с юзом @tester00131 следущие сообщение: Привет чкшпан...
+2026-06-25 12:54:12,784 [INFO] MessageHandler: 📤 Прямая отправка → @tester00131: пользователью с юзом следущие сообщение: Привет чкшпан...
+2026-06-25 12:54:12,784 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 12:54:13,248 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 12:54:13,711 [INFO] Assistant: ✅ Ответ отправлен: ✅ Отправлено @tester00131:
+
+пользователью с юзом следущие сообщение: Привет чкшп...
+2026-06-25 12:54:50,448 [INFO] Assistant: 📨 Сообщение от владельца: Отправь @RielzoПривет чушпанье 👍...
+2026-06-25 12:54:50,449 [INFO] MessageHandler: 📤 Прямая отправка → @RielzoПривет: чушпанье 👍...
+2026-06-25 12:54:50,449 [INFO] Sender: 📤 Отправка сообщения для: @RielzoПривет
+2026-06-25 12:54:51,263 [WARNING] Sender: Не удалось разрешить @RielzoПривет: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2026-06-25 12:54:51,728 [INFO] Assistant: ✅ Ответ отправлен: ❌ Не удалось отправить @RielzoПривет: Пользователь '@RielzoПривет' не найден...
+2026-06-25 12:55:14,124 [INFO] Assistant: 📨 Сообщение от владельца: Отправь @Rielzo Привет чушпанье 👍...
+2026-06-25 12:55:14,125 [INFO] MessageHandler: 📤 Прямая отправка → @Rielzo: Привет чушпанье 👍...
+2026-06-25 12:55:14,125 [INFO] Sender: 📤 Отправка сообщения для: @Rielzo
+2026-06-25 12:55:14,568 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 12:55:15,040 [INFO] Assistant: ✅ Ответ отправлен: ❌ Не удалось отправить @Rielzo: Telegram ограничил отправку. Подожди немного....
+2026-06-25 12:56:46,824 [INFO] Assistant: 📨 Сообщение от владельца: Состояние ситсемы...
+2026-06-25 12:56:46,830 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:56:49,274 [INFO] Assistant: ✅ Ответ отправлен: К сожалению, мне не удалось найти информацию о текущем состоянии системы. Возмож...
+2026-06-25 12:56:57,170 [INFO] Assistant: 📨 Сообщение от владельца: погода в тюмени...
+2026-06-25 12:56:57,176 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:56:59,961 [INFO] Assistant: ✅ Ответ отправлен: В Тюмени сегодня облачно, с слегка осадками. Температура воздуха может быть от 2...
+2026-06-25 12:57:11,631 [INFO] Assistant: 📨 Сообщение от владельца: какая ты модель ?...
+2026-06-25 12:57:11,638 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:57:13,007 [INFO] Assistant: ✅ Ответ отправлен: Я - OpenAI GPT-4....
+2026-06-25 12:57:19,368 [INFO] Assistant: 📨 Сообщение от владельца: ты сервер...
+2026-06-25 12:57:19,374 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:57:21,724 [INFO] Assistant: ✅ Ответ отправлен: Извините, но я не являюсь сервером. Я искусственный интеллект, разработанный ком...
+2026-06-25 12:57:33,916 [INFO] Assistant: 📨 Сообщение от владельца: кто твой создатель...
+2026-06-25 12:57:33,922 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:57:37,151 [INFO] Assistant: ✅ Ответ отправлен: Моя основа и учебные данные были получены из открытых источников, таких как Wiki...
+2026-06-25 12:57:47,237 [INFO] Assistant: 📨 Сообщение от владельца: окей...
+2026-06-25 12:57:47,242 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 12:57:49,759 [INFO] Assistant: ✅ Ответ отправлен: Всегда готов помочь! Если у вас есть еще вопросы, просто задавайте....
+2026-06-25 13:02:22,281 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 13:02:22,282 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 13:02:24,231 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 13:02:24,233 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 13:02:24,233 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 13:02:24,233 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 13:02:24,233 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 13:02:24,233 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 13:02:24,258 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-06-25 13:02:24,258 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 13:02:24,260 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 13:02:25,946 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 13:02:25,946 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-06-25 13:02:25,947 [INFO] Assistant: 📋 Шаблонов: 5
+2026-06-25 13:02:25,947 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-06-25 13:02:58,505 [INFO] Assistant: 📨 От владельца: Отправь @Rielzo привет [ответ]
+2026-06-25 13:02:59,165 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 13:03:02,571 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=1
+2026-06-25 13:03:02,572 [INFO] Sender: 📤 Отправка сообщения для: @Rielzo
+2026-06-25 13:03:03,019 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 13:03:25,947 [INFO] Assistant: 📨 От владельца: Отправь  @tester00131 привет [ответ]
+2026-06-25 13:03:25,962 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 13:03:27,915 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=2
+2026-06-25 13:03:27,915 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 13:03:28,391 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 13:03:28,676 [INFO] ReplySystem: ✅ Reply-сессия создана: @tester00131 token=69CCCA6E
+2026-06-25 13:04:00,675 [INFO] Assistant: 📨 От получателя @tester00131: ОТВЕТ ну че ты какшка офигел совсем ?
+2026-06-25 13:04:01,503 [INFO] ReplySystem: 📨 Получен ответ от @tester00131: ну че ты какшка офигел совсем ?
+2026-06-25 13:04:01,748 [INFO] Assistant: ✅ Ответ от @tester00131 переслан владельцу
+2026-06-25 13:04:24,346 [INFO] Assistant: 📨 От владельца: ОТВЕТ чушпан
+2026-06-25 13:04:24,361 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 13:04:55,876 [INFO] Assistant: 📨 От получателя @tester00131: привет олух
+2026-06-25 13:04:57,589 [INFO] Assistant: 📨 От получателя @tester00131: оалдцуоадлцоуа
+2026-06-25 13:05:37,616 [INFO] Assistant: 📨 От владельца: Отправь  @tester00131 бебеб
+2026-06-25 13:05:37,631 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 13:05:39,520 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=3
+2026-06-25 13:05:39,521 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-06-25 13:05:40,005 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-06-25 14:16:29,101 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 ххуй
+2026-06-25 14:16:29,136 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:16:31,201 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=4
+2026-06-25 14:16:31,201 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 14:16:31,643 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 14:16:59,660 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-06-25 14:16:59,662 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-06-25 14:16:59,662 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,663 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,747 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,808 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,808 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,809 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,809 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,809 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,810 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,812 [INFO] telethon.network.connection.connection: The server closed the connection while sending
+2026-06-25 14:16:59,812 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,812 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,813 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,813 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,813 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,814 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,869 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,870 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,870 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,870 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,870 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,871 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,873 [INFO] telethon.network.connection.connection: The server closed the connection while sending
+2026-06-25 14:16:59,874 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,874 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,874 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,874 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,874 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,875 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,878 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,879 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,879 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,879 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,879 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,880 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,932 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,933 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,933 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,933 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,933 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,934 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,938 [INFO] telethon.network.connection.connection: The server closed the connection while sending
+2026-06-25 14:16:59,938 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,938 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,938 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-06-25 14:16:59,938 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,938 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,940 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:16:59,942 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,943 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,943 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:16:59,943 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-06-25 14:16:59,943 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:16:59,944 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:17:00,007 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 14:17:00,008 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 14:17:00,008 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-06-25 14:17:00,008 [INFO] telethon.network.connection.connection: <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-06-25 14:17:00,009 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:17:10,019 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 14:17:11,023 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:17:13,763 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 ххуй
+2026-06-25 14:17:13,777 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:17:15,640 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=5
+2026-06-25 14:17:15,640 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 14:17:16,029 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 14:19:42,870 [INFO] telethon.client.updates: Got difference for account updates
+2026-06-25 14:19:53,285 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 ххуй
+2026-06-25 14:19:53,301 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:19:56,072 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=6
+2026-06-25 14:19:56,072 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 14:19:56,489 [INFO] Sender: ✅ Сообщение отправлено: @tema_093
+2026-06-25 14:21:08,465 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 Эпезод №1 На ваш аккаунт был активирован протокол слежки это о
+2026-06-25 14:21:08,479 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:21:13,136 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=7
+2026-06-25 14:21:13,137 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 14:21:13,560 [INFO] Sender: ✅ Сообщение отправлено: @tema_093
+2026-06-25 14:21:13,779 [INFO] ReplySystem: ✅ Reply-сессия создана: @tema_093 token=21C35137
+2026-06-25 14:23:25,271 [INFO] Assistant: 📨 От владельца: /статус
+2026-06-25 14:23:43,170 [INFO] Assistant: 📨 От владельца: /сессии
+2026-06-25 14:24:33,766 [INFO] Assistant: 📨 От владельца: Лимина анализ
+2026-06-25 14:24:33,782 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,606 [INFO] Assistant: 📨 От владельца: ОТГАДАЙ ЩАГАДКУ
+2026-06-25 14:25:10,622 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,651 [INFO] Assistant: 📨 От владельца: Подходит к нему Денчик, пограничник ему пароль, а Денчик говорит: «Не знает». Ну
+2026-06-25 14:25:10,668 [INFO] Assistant: 📨 От владельца: Подходить первый дед к пограничнику, пограничник спрашивает пароль и говорит два
+2026-06-25 14:25:10,741 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,747 [INFO] Assistant: 📨 От владельца: Подходить второй дед пограничник, также ему пароль двадцать четыре, дед ему отве
+2026-06-25 14:25:10,760 [INFO] Assistant: 📨 От владельца: Подходит третий дед и пограничник, всё так же пароль двадцать восемь, дед и гово
+2026-06-25 14:25:10,774 [INFO] Assistant: 📨 От владельца: Денчик всё это слушал и подходит к пограничнику со словами: «Давай»
+2026-06-25 14:25:10,791 [INFO] Assistant: 📨 От владельца: Пограничник ему: сто
+2026-06-25 14:25:10,803 [INFO] Assistant: 📨 От владельца: Что сказала Денчик ?
+2026-06-25 14:25:10,827 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,828 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,829 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,830 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,831 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:25:10,833 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:26:19,663 [INFO] Assistant: 📨 От владельца: Отгадай загадку 
+
+Подходит к нему Денчик, пограничник ему пароль, а Денчик говор
+2026-06-25 14:26:19,678 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:26:36,194 [INFO] Assistant: 📨 От владельца: Отгадай загадку 
+
+Подходит к нему Денчик, пограничник ему пароль, а Денчик говор
+2026-06-25 14:26:36,209 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:26:41,496 [INFO] Assistant: 📨 От владельца: Отгадай загадку 
+
+Подходит к нему Денчик, пограничник ему пароль, а Денчик говор
+2026-06-25 14:26:41,512 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:26:47,683 [INFO] Assistant: 📨 От владельца: ты дура ?
+2026-06-25 14:26:47,698 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:27:01,063 [INFO] Assistant: 📨 От владельца: называй меня госоподин
+2026-06-25 14:27:01,079 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:27:07,342 [INFO] Assistant: 📨 От владельца: как меня зовуть ?
+2026-06-25 14:27:07,359 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:27:29,728 [INFO] Assistant: 📨 От владельца: Выбери другую модель
+2026-06-25 14:27:29,743 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:28:19,041 [INFO] Assistant: 📨 От владельца: Реши задачу по физике Сколько весит вода объемом 20л
+2026-06-25 14:28:19,056 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:28:42,081 [INFO] Assistant: 📨 От владельца: ответ неужен в P
+2026-06-25 14:28:42,096 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:28:50,020 [INFO] Assistant: 📨 От владельца: нет
+2026-06-25 14:28:50,036 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:28:56,046 [INFO] Assistant: 📨 От владельца: 200 ньютонов ответ
+2026-06-25 14:28:56,062 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:29:23,056 [INFO] Assistant: 📨 От владельца: напиши мне задачу которую я тебе задал
+2026-06-25 14:29:23,071 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:29:34,960 [INFO] Assistant: 📨 От владельца: исходный вариант задачт
+2026-06-25 14:29:34,976 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:29:49,035 [INFO] Assistant: 📨 От владельца: окей мое исходное сообщение с задачей
+2026-06-25 14:29:49,051 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:01,391 [INFO] Assistant: 📨 От владельца: ❤️
+2026-06-25 14:30:01,407 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:08,970 [INFO] Assistant: 📨 От владельца: пообщаться
+2026-06-25 14:30:08,987 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:15,576 [INFO] Assistant: 📨 От владельца: у меня хорошие натсроение
+2026-06-25 14:30:15,613 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:23,554 [INFO] Assistant: 📨 От владельца: я хочу выучить все приемы дхюдзд помоги мне
+2026-06-25 14:30:23,569 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:35,656 [INFO] Assistant: 📨 От владельца: броски
+2026-06-25 14:30:35,672 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:47,502 [INFO] Assistant: 📨 От владельца: давай
+2026-06-25 14:30:47,518 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:30:53,171 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 14:30:53,172 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:30:53,175 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\main.py", line 58, in on_owner_message
+    response = await handler.process(text, event)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\core\message_handler.py", line 85, in process
+    lm_response = await self._ask_lm(text)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\core\message_handler.py", line 236, in _ask_lm
+    response = await self.lm.chat(
+               ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Limina\core\lm_client.py", line 79, in chat
+    async with session.post(
+               ~~~~~~~~~~~~^
+        f"{self.base_url}/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        json=payload,
+        ^^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client.py", line 684, in _request
+    await resp.start(conn)
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client_reqrep.py", line 999, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\streams.py", line 640, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 57, in on_owner_message
+    async with client.action(event.chat_id, "typing"):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 73, in __aexit__
+    await self._task
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 91, in _update
+    await self._client(functions.messages.SetTypingRequest(
+        self._chat, types.SendMessageCancelAction()))
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 67, in _call
+    future = sender.send(request, ordered=ordered)
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 179, in send
+    raise ConnectionError('Cannot send requests while disconnected')
+ConnectionError: Cannot send requests while disconnected
+2026-06-25 14:33:03,119 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 14:33:03,122 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 14:33:03,122 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 14:33:03,122 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 14:33:03,122 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 14:33:03,122 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 14:33:03,127 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-06-25 14:33:03,127 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 14:33:03,129 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 14:33:04,606 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 14:33:04,607 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-06-25 14:33:04,607 [INFO] Assistant: 📋 Шаблонов: 5
+2026-06-25 14:33:04,607 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-06-25 14:34:18,340 [INFO] Assistant: 📨 От владельца: Отправь @Tsuyoi2873: «Денис не может ответить на ваше сообщение. Пожалуйста, ост
+2026-06-25 14:34:18,372 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:34:22,203 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=8
+2026-06-25 14:34:22,203 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:34:22,616 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 14:34:39,436 [INFO] Assistant: 📨 От владельца: Отправь @Tsuyoi2873: «Денис не может ответить на ваше сообщение. Пожалуйста, ост
+2026-06-25 14:34:39,451 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:34:43,550 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=9
+2026-06-25 14:34:43,550 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:34:43,959 [WARNING] Sender: PeerFloodError — слишком много запросов
+2026-06-25 14:36:29,846 [INFO] telethon.client.updates: Got difference for account updates
+2026-06-25 14:36:43,148 [INFO] Assistant: 📨 От владельца: Отправь @Tsuyoi2873: «Денис не может ответить на ваше сообщение. Пожалуйста, ост
+2026-06-25 14:36:43,163 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:36:47,377 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=10
+2026-06-25 14:36:47,377 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:36:47,838 [INFO] Sender: ✅ Сообщение отправлено: @Tsuyoi2873
+2026-06-25 14:36:48,063 [INFO] ReplySystem: ✅ Reply-сессия создана: @Tsuyoi2873 token=051A78A8
+2026-06-25 14:37:51,162 [INFO] Assistant: 📨 От получателя @Tsuyoi2873: ОТВЕТ а можно в личку все таки, и нафиг писать "ответ"?
+2026-06-25 14:37:51,188 [INFO] ReplySystem: 📨 Получен ответ от @Tsuyoi2873: а можно в личку все таки, и нафиг писать "ответ"?
+2026-06-25 14:37:51,416 [INFO] Assistant: ✅ Ответ от @Tsuyoi2873 переслан владельцу
+2026-06-25 14:38:57,660 [INFO] Assistant: 📨 От владельца: Отправь  @Tsuyoi2873 Я являюсь ИИ Ассистентом Дениса, к сожелению я не могу обща
+2026-06-25 14:38:57,676 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:39:01,313 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=11
+2026-06-25 14:39:01,313 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:39:01,741 [INFO] Sender: ✅ Сообщение отправлено: @Tsuyoi2873
+2026-06-25 14:39:21,537 [INFO] Assistant: 📨 От владельца: Отправь  @Tsuyoi2873 Ошикба #102 Обращение уже отправлено
+2026-06-25 14:39:21,558 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:39:24,281 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=12
+2026-06-25 14:39:24,281 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:39:24,701 [INFO] Sender: ✅ Сообщение отправлено: @Tsuyoi2873
+2026-06-25 14:39:34,758 [INFO] Assistant: 📨 От получателя @Tsuyoi2873: ...
+2026-06-25 14:42:14,290 [INFO] Assistant: 📨 От владельца: Отправь  @Tsuyoi2873 Я являюсь ИИ Ассистентом Дениса, к сожалению я не могу обща
+2026-06-25 14:42:14,304 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 14:42:21,124 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=13
+2026-06-25 14:42:21,124 [INFO] Sender: 📤 Отправка сообщения для: @Tsuyoi2873
+2026-06-25 14:42:21,539 [INFO] Sender: ✅ Сообщение отправлено: @Tsuyoi2873
+2026-06-25 16:18:00,374 [INFO] Assistant: 📨 От получателя @tema_093: ОТВЕТ окей
+2026-06-25 16:18:00,398 [INFO] ReplySystem: 📨 Получен ответ от @tema_093: окей
+2026-06-25 16:18:00,634 [INFO] Assistant: ✅ Ответ от @tema_093 переслан владельцу
+2026-06-25 16:18:32,042 [INFO] Assistant: 📨 От получателя @tema_093: ОТВЕТ иди нахуй выключи
+2026-06-25 16:18:32,416 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 ты где [Ответ]
+2026-06-25 16:18:32,451 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:18:35,727 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=14
+2026-06-25 16:18:35,727 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 16:18:36,153 [INFO] Sender: ✅ Сообщение отправлено: @tema_093
+2026-06-25 16:18:36,379 [INFO] ReplySystem: ✅ Reply-сессия создана: @tema_093 token=2602C73D
+2026-06-25 16:19:03,510 [INFO] Assistant: 📨 От получателя @tema_093: Иди нахуц
+2026-06-25 16:19:03,531 [INFO] ReplySystem: 📨 Получен ответ от @tema_093: Иди нахуц
+2026-06-25 16:19:03,760 [INFO] Assistant: ✅ Ответ от @tema_093 переслан владельцу
+2026-06-25 16:20:03,047 [INFO] Assistant: 📨 От владельца: Отправь @tema_093 Ты находишься в красной базе данных xD  поэтому не можешь отпр
+2026-06-25 16:20:03,062 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:20:06,137 [INFO] MessageHandler: 💾 Сообщение зарезервировано в очереди: id=15
+2026-06-25 16:20:06,137 [INFO] Sender: 📤 Отправка сообщения для: @tema_093
+2026-06-25 16:20:06,558 [INFO] Sender: ✅ Сообщение отправлено: @tema_093
+2026-06-25 16:20:06,785 [INFO] ReplySystem: ✅ Reply-сессия создана: @tema_093 token=999089AA
+2026-06-25 16:20:17,132 [INFO] Assistant: 📨 От владельца: 2+2*2
+2026-06-25 16:20:17,147 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:20:24,338 [INFO] Assistant: 📨 От владельца: 100/1000000
+2026-06-25 16:20:24,352 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:21:16,855 [INFO] Assistant: 📨 От владельца: Что ты думаешь  на счёт 4 Аркана в таро ?
+2026-06-25 16:21:16,869 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:21:33,864 [INFO] Assistant: 📨 От владельца: Погоди 4 аркан это же император
+2026-06-25 16:21:33,880 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:21:50,197 [INFO] Assistant: 📨 От владельца: Как вывести его в +
+2026-06-25 16:21:50,214 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:00,469 [INFO] Assistant: 📨 От владельца: Как вывести 4 аркан в плюс
+2026-06-25 16:22:00,483 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:15,747 [INFO] Assistant: 📨 От владельца: Как вывести 4 аркан в плюс в таро
+2026-06-25 16:22:15,763 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:22,851 [INFO] Assistant: 📨 От владельца: Какая ты тупая
+2026-06-25 16:22:22,894 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:36,691 [INFO] Assistant: 📨 От владельца: Ты отвечаешь неправильно на мои вопросы
+2026-06-25 16:22:36,707 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:53,985 [INFO] Assistant: 📨 От владельца: /сесси
+2026-06-25 16:22:54,002 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:22:59,987 [INFO] Assistant: 📨 От владельца: /логи
+2026-06-25 16:23:12,393 [INFO] Assistant: 📨 От владельца: Ох черт
+2026-06-25 16:23:12,460 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:23:18,445 [INFO] Assistant: 📨 От владельца: Выключи музыку на компьютере
+2026-06-25 16:23:18,463 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:23:39,926 [INFO] Assistant: 📨 От владельца: Напиши код на  питоне который сможешь это реализовать
+2026-06-25 16:23:39,943 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:27:08,748 [INFO] Assistant: 📨 От владельца: Какой ходовой товар на рынке на момент июня 25 числа 2026 для перепродажи и заку
+2026-06-25 16:27:08,766 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:28:32,728 [INFO] Assistant: 📨 От владельца: Схуяли
+2026-06-25 16:28:32,743 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:01,024 [INFO] Assistant: 📨 От владельца: Завершить работу
+2026-06-25 16:29:01,040 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:08,643 [INFO] Assistant: 📨 От владельца: Тест
+2026-06-25 16:29:08,659 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:18,096 [INFO] Assistant: 📨 От владельца: Выключи код заверши работу
+2026-06-25 16:29:18,115 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:26,866 [INFO] Assistant: 📨 От владельца: Оле
+2026-06-25 16:29:26,880 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:30,917 [INFO] Assistant: 📨 От владельца: Завершение работы
+2026-06-25 16:29:30,933 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:29:36,456 [INFO] Assistant: 📨 От владельца: Код 2
+2026-06-25 16:29:36,474 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:35:11,818 [INFO] Assistant: 📨 От владельца: Тест
+2026-06-25 16:35:11,833 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 16:37:00,365 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 16:37:00,366 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-06-25 17:00:48,510 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-06-25 17:00:48,513 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-06-25 17:00:48,513 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-06-25 17:00:48,513 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-06-25 17:00:48,513 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-06-25 17:00:48,513 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-06-25 17:00:48,534 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-06-25 17:00:48,534 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-06-25 17:00:58,546 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-06-25 17:00:59,556 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-06-25 17:01:01,306 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-06-25 17:01:01,306 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-06-25 17:01:01,306 [INFO] Assistant: 📋 Шаблонов: 5
+2026-06-25 17:01:01,307 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-06-25 17:01:04,355 [INFO] Assistant: 📨 От владельца: Тест
+2026-06-25 17:01:04,407 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:03:29,380 [INFO] Assistant: 📨 От владельца: Калибровка
+2026-06-25 17:03:29,396 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:03:44,918 [INFO] Assistant: 📨 От владельца: Калибровка джойстика ERM
+2026-06-25 17:03:44,933 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:04:09,570 [INFO] Assistant: 📨 От владельца: Что делать если ребёнок в лагере плачет
+2026-06-25 17:04:09,586 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:04:37,609 [INFO] Assistant: 📨 От владельца: Представь что ты психолог с большим опытом работы с детьми и тебе нужно как восп
+2026-06-25 17:04:37,625 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:05:07,529 [INFO] Assistant: 📨 От владельца: А ты не подробный совет напиши все подробно увеличь количество токенов до 7000
+2026-06-25 17:05:07,545 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:05:25,736 [INFO] Assistant: 📨 От владельца: Увеличь количество токенов до 7000
+2026-06-25 17:05:25,752 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:05:49,143 [INFO] Assistant: 📨 От владельца: Я даю  тебя возможность в личку листа так до 7000
+2026-06-25 17:05:49,167 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:06:09,663 [INFO] Assistant: 📨 От владельца: Как я могу дистанционно увеличить количество токенов
+2026-06-25 17:06:09,678 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:06:26,718 [INFO] Assistant: 📨 От владельца: У тебя нету шаблонов ответов как мне увеличить количество Токио до 7000
+2026-06-25 17:06:26,733 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:06:38,533 [INFO] Assistant: 📨 От владельца: Не отвечай мне шаблонами сообщениями
+2026-06-25 17:06:38,551 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-06-25 17:35:06,991 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-06-25 17:35:06,992 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:04:01,106 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-01 14:04:01,109 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:04:01,109 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:04:01,109 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:04:01,109 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:04:01,109 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:04:01,122 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:04:01,122 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:04:01,126 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:04:02,590 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:04:02,591 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:04:02,591 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:04:02,591 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:05:31,183 [INFO] Assistant: 📨 От владельца: лимина привет
+2026-07-01 14:05:33,267 [WARNING] LMStudio: Не удалось получить список моделей: Cannot connect to host localhost:1234 ssl:default [None]
+2026-07-01 14:05:35,312 [ERROR] LMStudio: Не удалось подключиться к LM Studio
+2026-07-01 14:06:02,865 [INFO] Assistant: 📨 От владельца: лимина привет
+2026-07-01 14:06:02,926 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-01 14:07:24,607 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 14:07:24,608 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:14:14,082 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-01 14:14:14,090 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:14:14,090 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:14:14,091 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:14:14,091 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:14:14,091 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:14:14,145 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:14:14,146 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:14:14,151 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:14:16,005 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:14:16,006 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:14:16,006 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:14:16,006 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:14:58,863 [INFO] Assistant: 📨 От владельца: /info
+2026-07-01 14:15:21,441 [INFO] Assistant: 📨 От владельца: /model math
+2026-07-01 14:15:21,543 [INFO] LMStudio: 🔄 Модель переключена на: qwen2.5-coder-3b-instruct
+2026-07-01 14:15:33,939 [INFO] Assistant: 📨 От владельца: привет 2+2+34+212*2178
+2026-07-01 14:16:38,468 [INFO] Assistant: 📨 От владельца: /сессии
+2026-07-01 14:31:04,895 [INFO] Assistant: 📨 От владельца: /модель fast
+2026-07-01 14:31:13,503 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 14:31:13,508 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:31:15,506 [INFO] Assistant: 🚀 Запуск L. I. M. I. N. A....
+2026-07-01 14:31:15,509 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:31:15,509 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:31:15,509 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:31:15,509 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:31:15,509 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:31:15,515 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:31:15,515 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:31:15,517 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:31:16,944 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:31:16,944 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:31:16,945 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:31:16,945 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:31:50,820 [INFO] Assistant: 📨 От владельца: /модель fast
+2026-07-01 14:31:50,855 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-07-01 14:33:11,266 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-01 14:33:11,344 [INFO] LMStudio: 🔄 Модель переключена на: google/gemma-4-12b-qat
+2026-07-01 14:33:22,179 [INFO] Assistant: 📨 От владельца: тест
+2026-07-01 14:39:49,445 [INFO] Assistant: 🚀 Запуск L. I. M. I. N. A....
+2026-07-01 14:39:49,448 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:39:49,448 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:39:49,449 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:39:49,449 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:39:49,449 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:39:49,464 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:39:49,464 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:39:49,467 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:39:50,947 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:39:50,948 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:39:50,948 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:39:50,948 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:41:28,960 [INFO] Assistant: 📨 От владельца: тест
+2026-07-01 14:41:31,043 [WARNING] LMStudio: Не удалось получить список моделей: Cannot connect to host localhost:1234 ssl:default [None]
+2026-07-01 14:41:45,796 [INFO] Assistant: 📨 От владельца: тест
+2026-07-01 14:41:45,824 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-07-01 14:44:51,005 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 14:44:51,006 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:44:51,009 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\main.py", line 58, in on_owner_message
+    response = await handler.process(text, event)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\core\message_handler.py", line 88, in process
+    lm_response = await self._ask_lm(text)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\core\message_handler.py", line 207, in _ask_lm
+    response = await self.lm.chat(
+               ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Limina\core\lm_client.py", line 208, in chat
+    async with session.post(f"{self.base_url}/chat/completions", json=payload) as response:
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client.py", line 684, in _request
+    await resp.start(conn)
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\client_reqrep.py", line 999, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\aiohttp\streams.py", line 640, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 57, in on_owner_message
+    async with client.action(event.chat_id, "typing"):
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 73, in __aexit__
+    await self._task
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\chats.py", line 91, in _update
+    await self._client(functions.messages.SetTypingRequest(
+        self._chat, types.SendMessageCancelAction()))
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 67, in _call
+    future = sender.send(request, ordered=ordered)
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 179, in send
+    raise ConnectionError('Cannot send requests while disconnected')
+ConnectionError: Cannot send requests while disconnected
+2026-07-01 14:44:58,015 [INFO] Assistant: 🚀 Запуск L. I. M. I. N. A....
+2026-07-01 14:44:58,017 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:44:58,018 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:44:58,018 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:44:58,018 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:44:58,018 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:44:58,022 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:44:58,022 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:44:58,024 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:44:59,433 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:44:59,433 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:44:59,433 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:44:59,434 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:45:09,289 [INFO] Assistant: 📨 От владельца: test
+2026-07-01 14:45:09,325 [INFO] LMStudio: 🤖 Авто-выбрана модель: google/gemma-4-12b-qat
+2026-07-01 14:48:11,331 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-01 14:48:11,332 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-01 14:48:11,332 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-01 14:48:11,332 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:48:11,335 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:48:11,543 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,544 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,544 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-01 14:48:11,544 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,545 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:48:11,584 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:48:11,628 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,629 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,629 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-01 14:48:11,629 [INFO] telethon.network.connection.connection: <class 'ConnectionResetError'> during disconnect: [WinError 64] Указанное сетевое имя более недоступно
+2026-07-01 14:48:11,630 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:48:11,631 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:48:11,962 [WARNING] telethon.network.connection.connection: Server closed the connection: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-07-01 14:48:11,962 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-07-01 14:48:11,963 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-01 14:48:11,963 [INFO] telethon.network.connection.connection: <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-07-01 14:48:11,963 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:48:21,965 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-07-01 14:48:32,981 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-01 14:48:44,002 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-01 14:48:55,022 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-01 14:49:06,045 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-07-01 14:49:17,061 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-07-01 14:49:18,077 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 1 with ConnectionError
+2026-07-01 14:49:19,082 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:49:29,094 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-07-01 14:49:40,119 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-01 14:49:51,138 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-01 14:50:02,274 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-01 14:50:03,074 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 14:50:03,083 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:50:03,135 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 60, in on_owner_message
+    await event.respond(response)
+  File "C:\Limina\.venv\Lib\site-packages\telethon\tl\custom\message.py", line 765, in respond
+    await self.get_input_chat(), *args, **kwargs)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\tl\custom\chatgetter.py", line 85, in get_input_chat
+    async for d in self._client.iter_dialogs(100):
+    ...<3 lines>...
+            break
+  File "C:\Limina\.venv\Lib\site-packages\telethon\requestiter.py", line 74, in __anext__
+    if await self._load_next_chunk():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\dialogs.py", line 53, in _load_next_chunk
+    r = await self.client(self.request)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 67, in _call
+    future = sender.send(request, ordered=ordered)
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 179, in send
+    raise ConnectionError('Cannot send requests while disconnected')
+ConnectionError: Cannot send requests while disconnected
+2026-07-01 14:50:03,867 [ERROR] telethon.network.mtprotosender: Unexpected exception reconnecting on attempt 2
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 378, in _reconnect
+    await self._connect()
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 234, in _connect
+    connected = await self._try_connect(attempt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\network\mtprotosender.py", line 284, in _try_connect
+    await self._connection.connect(timeout=self._connect_timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'connect'
+2026-07-01 14:58:56,006 [INFO] Assistant: 🚀 Запуск L. I. M. I. N. A....
+2026-07-01 14:58:56,107 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 14:58:56,108 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 14:58:56,108 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 14:58:56,108 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 14:58:56,108 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 14:58:56,119 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 14:58:56,120 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 14:59:06,124 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-07-01 14:59:07,139 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 14:59:08,642 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 14:59:08,643 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 14:59:08,643 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 14:59:08,643 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 14:59:43,574 [INFO] Assistant: 📨 От владельца: Лимина, привет
+2026-07-01 14:59:43,616 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-01 14:59:59,319 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-01 15:00:11,504 [INFO] Assistant: 📨 От владельца: /модель fast
+2026-07-01 15:00:11,522 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-01 15:00:23,412 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-01 15:01:00,206 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 15:01:00,207 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-01 15:01:01,770 [INFO] Assistant: 🚀 Запуск L. I. M. I. N. A....
+2026-07-01 15:01:01,773 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-01 15:01:01,773 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-01 15:01:01,773 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-01 15:01:01,773 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-01 15:01:01,773 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-01 15:01:01,778 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-01 15:01:01,778 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-01 15:01:01,787 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-01 15:01:03,247 [INFO] Assistant: ✅ Авторизован как: L. I. M. I. N. A (@L_imin_a)
+2026-07-01 15:01:03,247 [INFO] Assistant: 👂 Ассистент слушает... (Ctrl+C для остановки)
+2026-07-01 15:01:03,247 [INFO] Assistant: 📋 Шаблонов: 5
+2026-07-01 15:01:03,247 [INFO] Assistant: 🤖 LM Studio: http://localhost:1234/v1
+2026-07-01 15:01:20,593 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-01 15:01:20,624 [INFO] LMStudio: 🔄 Модель переключена на: qwen2.5-coder-3b-instruct
+2026-07-01 15:02:05,177 [INFO] Assistant: 📨 От владельца: Лимина, привет
+2026-07-01 15:02:05,248 [INFO] Assistant: 📨 От владельца: Лимина, привет
+2026-07-01 15:02:05,335 [INFO] Assistant: 📨 От владельца: Оле бляха
+2026-07-01 15:02:05,395 [INFO] Assistant: 📨 От владельца: Сука
+2026-07-01 15:02:06,461 [INFO] Assistant: 📨 От владельца: /info
+2026-07-01 15:02:17,410 [INFO] Assistant: 📨 От владельца: /moddl
+2026-07-01 15:02:30,099 [INFO] Assistant: 📨 От владельца: Состояние системы ?
+2026-07-01 15:02:37,776 [INFO] Assistant: 📨 От владельца: Так
+2026-07-01 15:03:14,483 [INFO] Assistant: 📨 От владельца: Отправь @tester00131 привет
+2026-07-01 15:03:17,201 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-07-01 15:03:17,629 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-07-01 15:03:40,464 [INFO] Assistant: 📨 От владельца: Отправь @tester00131 привет [Ответ]
+2026-07-01 15:03:42,953 [INFO] Sender: 📤 Отправка сообщения для: @tester00131
+2026-07-01 15:03:43,389 [INFO] Sender: ✅ Сообщение отправлено: @tester00131
+2026-07-01 15:03:43,608 [INFO] ReplySystem: ✅ Reply-сессия создана: @tester00131 token=60D7ED6F
+2026-07-01 15:03:51,415 [INFO] Assistant: 📨 От получателя @tester00131: Ответ сука
+2026-07-01 15:03:51,441 [INFO] ReplySystem: 📨 Получен ответ от @tester00131: сука
+2026-07-01 15:03:51,661 [INFO] Assistant: ✅ Ответ от @tester00131 переслан владельцу
+2026-07-01 15:04:01,233 [INFO] Assistant: 📨 От владельца: /сессия
+2026-07-01 15:04:07,427 [INFO] Assistant: 📨 От владельца: /инфо
+2026-07-01 15:04:17,995 [INFO] Assistant: 📨 От владельца: /info
+2026-07-01 15:04:28,623 [INFO] Assistant: 📨 От владельца: /шаблоны
+2026-07-01 15:04:44,775 [INFO] Assistant: 📨 От владельца: НАПОМИНАНИЕ оашулста 26.10
+2026-07-01 15:04:47,892 [INFO] telethon.client.users: Sleeping for 17s (0:00:17) on SendMessageRequest flood wait
+2026-07-01 15:05:48,323 [INFO] Assistant: 📨 От владельца: /очистить
+2026-07-01 15:25:52,498 [INFO] Assistant: 📨 От владельца: /info
+2026-07-01 15:26:18,726 [INFO] Assistant: 📨 От владельца: /история нейронкой
+2026-07-01 15:27:13,081 [INFO] Assistant: 📨 От владельца: /история
+2026-07-01 15:28:07,879 [INFO] Assistant: 📨 От владельца: /model math
+2026-07-01 15:28:07,891 [INFO] LMStudio: 🔄 Модель переключена на: google/gemma-4-12b-qat
+2026-07-01 15:28:12,336 [INFO] Assistant: 📨 От владельца: Автомобиль массой 1 т трогается с места и через 10 с достигает скорости 20 м/с. 
+2026-07-01 15:33:40,669 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-01 15:33:40,690 [INFO] LMStudio: 🔄 Модель переключена на: qwen2.5-coder-3b-instruct
+2026-07-01 15:34:11,689 [INFO] Assistant: 📨 От владельца: Димина привет
+2026-07-01 15:36:32,351 [INFO] Assistant: 📨 От владельца: Привет можешь пожалуйста помочь мне в решении задачи по математике 2 × 2
+2026-07-01 15:52:11,983 [INFO] Assistant: 📨 От владельца: Проверка связи
+2026-07-01 16:16:04,172 [INFO] telethon.client.updates: Got difference for channel 2497181539 updates
+2026-07-01 16:16:04,182 [INFO] Assistant: 📨 От получателя -1002497181539: Зумеры живут в КОНТЕЙНЕРАХ потому, что снимать жилье в Москв
+2026-07-01 16:18:26,286 [INFO] Assistant: 📨 От владельца: Проверка связи
+2026-07-01 17:22:32,990 [INFO] Assistant: 📨 От владельца: Проверка связи
+2026-07-01 17:31:05,169 [INFO] telethon.client.updates: Got difference for channel 2497181539 updates
+2026-07-01 17:31:05,170 [INFO] Assistant: 📨 От получателя -1002497181539: 🔴 В России начали отказываться от дипломных работ из-за ИИ. 
+2026-07-01 17:46:05,382 [INFO] telethon.client.updates: Got difference for channel 2497181539 updates
+2026-07-01 17:46:05,382 [INFO] Assistant: 📨 От получателя -1002497181539: 🔴 Переписки из «Телеги» продают в даркнете, утверждает журна
+2026-07-01 18:46:06,242 [INFO] telethon.client.updates: Got difference for channel 2497181539 updates
+2026-07-01 18:46:06,243 [INFO] Assistant: 📨 От получателя -1002497181539: 🔴 Apple получила предупреждение ФАС из-за нарушений требован
+2026-07-01 18:57:23,175 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-01 18:57:23,176 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!

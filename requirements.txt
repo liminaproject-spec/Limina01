@@ -1,0 +1,11 @@
+# Умный ТГ Ассистент — зависимости
+# Установка: pip install -r requirements.txt
+
+# Telegram userbot
+telethon==1.36.0
+
+# HTTP клиент для LM Studio
+aiohttp==3.10.5
+
+# Переменные окружения из .env
+python-dotenv==1.0.1
