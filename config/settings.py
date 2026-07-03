@@ -61,6 +61,13 @@ class Settings:
             for c in s.log_channels
         ]
 
+        # Аккаунты для мониторинга (номера телефонов через запятую)
+        # Пример: MONITORED_ACCOUNTS=+79991234567,+79997654321
+        raw_accounts = os.getenv("MONITORED_ACCOUNTS", "")
+        s.monitored_accounts = [
+            a.strip() for a in raw_accounts.split(",") if a.strip()
+        ]
+
         s.lm_studio_url = os.getenv("LM_STUDIO_URL", "http://localhost:1234/v1")
         s.lm_model = os.getenv("LM_MODEL", "")
         s.lm_max_tokens = int(os.getenv("LM_MAX_TOKENS", "1024"))
