@@ -7356,3 +7356,967 @@ ConnectionError: Connection to Telegram failed 5 time(s)
 2026-07-03 10:05:33,545 [INFO] Monitor: ✅ Уведомление об удалении отправлено.
 2026-07-03 10:05:34,326 [INFO] telethon.client.updates: Got difference for account updates
 2026-07-03 10:06:07,976 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:20:06,933 [INFO] telethon.client.updates: Got difference for channel 1309449778 updates
+2026-07-03 10:20:18,548 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-03 10:20:18,548 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:20:18,554 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-03 10:20:18,555 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:20:18,574 [INFO] AccountMonitor: 👁 Доп. аккаунты логирования отключены
+2026-07-03 10:20:20,349 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-03 10:20:20,354 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:20:20,355 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-03 10:20:20,355 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-03 10:20:20,355 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-03 10:20:20,355 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-03 10:20:20,355 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-03 10:20:20,360 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:20:20,380 [INFO] Monitor: 📡 Монитор активен → [-1003807073500]
+2026-07-03 10:20:20,380 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 10:20:20,382 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:20:21,805 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-03 10:20:21,997 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-03 10:20:21,997 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-03 10:20:21,999 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 10:20:22,001 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:20:22,701 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-03 10:20:22,703 [INFO] Monitor: 📡 Монитор активен → [-1003807073500]
+2026-07-03 10:20:22,703 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-03 10:20:22,704 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-03 10:20:22,704 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-03 10:20:46,851 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:20:46,956 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:20:47,070 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:20:48,970 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:20:48,970 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.56', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-03 10:20:52,270 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:20:52,363 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:20:52,447 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-03 10:21:23,259 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:21:31,486 [INFO] Monitor: 🗑 Удалено id=190036 от @tester00131
+2026-07-03 10:21:31,829 [INFO] telethon.client.uploads: Uploading file of 342096 bytes in 3 chunks of 131072
+2026-07-03 10:21:35,031 [INFO] Monitor: ✅ Медиа (video_note) отправлено владельцу
+2026-07-03 10:21:35,031 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:21:35,048 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:21:35,139 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:22:02,790 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:22:12,608 [INFO] Assistant: 📨 От владельца: Tr
+2026-07-03 10:22:12,641 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-03 10:22:32,763 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:23:11,056 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 10:23:11,056 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 10:23:11,057 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 10:23:11,057 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:23:11,059 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:23:22,561 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:23:22,561 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:23:22,562 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:23:24,163 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:24:39,934 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:24:40,025 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:24:40,025 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:24:40,027 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:25:10,354 [INFO] Monitor: 🗑 Удалено id=190042 от @tester00131
+2026-07-03 10:25:10,703 [INFO] telethon.client.uploads: Uploading file of 197109 bytes in 2 chunks of 131072
+2026-07-03 10:25:13,097 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:25:13,097 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:25:13,114 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:25:13,203 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:26:22,605 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:26:22,605 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:26:22,605 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:27:21,537 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:29:02,574 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:29:04,591 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-03 10:30:01,175 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:30:01,274 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-03 10:30:01,275 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:30:01,971 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-03 10:30:01,972 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:30:04,507 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:30:04,619 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-03 10:31:33,853 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-03 10:31:53,568 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-03 10:31:53,569 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:31:53,574 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-03 10:31:53,574 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:31:53,574 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-03 10:31:53,580 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-03 10:31:55,180 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-03 10:31:55,185 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:31:55,186 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-03 10:31:55,186 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-03 10:31:55,186 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-03 10:31:55,186 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-03 10:31:55,186 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-03 10:31:55,191 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:31:55,193 [INFO] Monitor: 📡 Монитор активен → [-1003807073500]
+2026-07-03 10:31:55,194 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:31:55,194 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 10:31:55,197 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:31:56,623 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-03 10:31:56,814 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-03 10:31:56,814 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-03 10:31:56,817 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 10:31:56,819 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:31:57,471 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-03 10:31:57,474 [INFO] Monitor: 📡 Монитор активен → [-1003807073500]
+2026-07-03 10:31:57,474 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:31:57,474 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-03 10:31:57,474 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-03 10:31:57,474 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-03 10:32:04,226 [INFO] Assistant: 📨 От владельца: Test
+2026-07-03 10:32:04,258 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-03 10:32:07,634 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:32:25,208 [INFO] Monitor: 🗑 Удалено id=190035 от @tester00131
+2026-07-03 10:32:25,609 [INFO] telethon.client.uploads: Uploading file of 226687 bytes in 2 chunks of 131072
+2026-07-03 10:32:27,421 [INFO] Monitor: ✅ Медиа (video_note) отправлено владельцу
+2026-07-03 10:32:27,421 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:32:27,436 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:32:27,577 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:32:27,661 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:32:29,748 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:32:29,748 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.56', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-03 10:33:57,343 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:33:57,344 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:33:57,344 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:34:24,558 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,579 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,592 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,605 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,623 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,651 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,670 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:34:24,685 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,685 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:34:24,724 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,733 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,741 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,760 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,799 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:24,800 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:34:45,708 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: OSError: [WinError 121] Превышен таймаут семафора
+2026-07-03 10:34:46,719 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:35:17,923 [INFO] Monitor: 🗑 Удалено id=190060 от @tester00131
+2026-07-03 10:35:18,262 [INFO] telethon.client.uploads: Uploading file of 197645 bytes in 2 chunks of 131072
+2026-07-03 10:35:19,760 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:19,760 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:19,775 [INFO] Monitor: 🗑 Удалено id=190062 от @tester00131
+2026-07-03 10:35:19,782 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:19,864 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:20,557 [INFO] telethon.client.uploads: Uploading file of 159036 bytes in 2 chunks of 131072
+2026-07-03 10:35:21,889 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:21,889 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:21,903 [INFO] Monitor: 🗑 Удалено id=190061 от @tester00131
+2026-07-03 10:35:21,910 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:21,992 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:23,119 [INFO] telethon.client.uploads: Uploading file of 149414 bytes in 2 chunks of 131072
+2026-07-03 10:35:24,386 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:24,386 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:24,404 [INFO] Monitor: 🗑 Удалено id=190057 от @tester00131
+2026-07-03 10:35:24,412 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:24,498 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:25,212 [INFO] telethon.client.uploads: Uploading file of 447929 bytes in 4 chunks of 131072
+2026-07-03 10:35:28,223 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:28,223 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:28,238 [INFO] Monitor: 🗑 Удалено id=190058 от @tester00131
+2026-07-03 10:35:28,247 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:28,331 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:29,048 [INFO] telethon.client.uploads: Uploading file of 374759 bytes in 3 chunks of 131072
+2026-07-03 10:35:31,924 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:31,924 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:31,939 [INFO] Monitor: 🗑 Удалено id=190059 от @tester00131
+2026-07-03 10:35:31,957 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:32,041 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:32,715 [INFO] telethon.client.uploads: Uploading file of 401495 bytes in 4 chunks of 131072
+2026-07-03 10:35:36,039 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:36,039 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:36,056 [INFO] Monitor: 🗑 Удалено id=190056 от @tester00131
+2026-07-03 10:35:36,064 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:36,148 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:35:36,855 [INFO] telethon.client.uploads: Uploading file of 433455 bytes in 4 chunks of 131072
+2026-07-03 10:35:41,164 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:35:41,164 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:35:41,182 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:35:41,299 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:36:57,380 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:36:57,380 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:36:57,381 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:41:49,781 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:41:49,873 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:41:49,873 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:41:49,876 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:41:56,727 [INFO] Monitor: 🗑 Удалено id=190077 от @tester00131
+2026-07-03 10:41:57,072 [INFO] telethon.client.uploads: Uploading file of 149081 bytes in 2 chunks of 131072
+2026-07-03 10:41:58,412 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:41:58,412 [INFO] Monitor: ✅ Уведомление об удалении отправлено владельцу
+2026-07-03 10:41:58,429 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:41:58,541 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:43:02,859 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-03 10:43:02,860 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:43:02,865 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-03 10:43:02,866 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:43:02,866 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:43:02,867 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:43:02,873 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-03 10:43:04,361 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-03 10:43:04,365 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:43:04,366 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-03 10:43:04,366 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-03 10:43:04,366 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-03 10:43:04,367 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-03 10:43:04,367 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-03 10:43:04,370 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:43:04,372 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-03 10:43:04,372 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:43:04,373 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 10:43:04,374 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:43:05,783 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-03 10:43:05,973 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-03 10:43:05,973 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-03 10:43:05,976 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 10:43:05,978 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:43:06,673 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-03 10:43:06,676 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-03 10:43:06,677 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:43:06,677 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-03 10:43:06,677 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-03 10:43:06,677 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-03 10:43:16,335 [INFO] Assistant: 📨 От владельца: Лимитный приз как у тебя дела
+2026-07-03 10:43:16,366 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-03 10:43:23,258 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:44:11,773 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,790 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,814 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,830 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,845 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,862 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,894 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:11,899 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,911 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:11,914 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:11,914 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:11,918 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:11,941 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:11,970 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:12,004 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:44:12,007 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:12,021 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:13,972 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:44:13,972 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.56', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-03 10:44:20,983 [INFO] Monitor: 📸 Альбом 14264546013457201: 1 фото
+2026-07-03 10:44:25,387 [INFO] Monitor: 📸 Альбом 14264546013457201: 7 фото
+2026-07-03 10:44:52,418 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 10:44:56,490 [INFO] Monitor: 🗑 Удалено id=190088 от @tester00131
+2026-07-03 10:44:56,847 [INFO] telethon.client.uploads: Uploading file of 25051 bytes in 1 chunks of 131072
+2026-07-03 10:44:57,464 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:44:57,478 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:44:57,566 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:44:59,167 [INFO] Monitor: 🗑 Удалено id=190085 от @tester00131
+2026-07-03 10:44:59,511 [INFO] telethon.client.uploads: Uploading file of 401495 bytes in 4 chunks of 131072
+2026-07-03 10:45:02,606 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:02,615 [INFO] Monitor: 🗑 Удалено id=190089 от @tester00131
+2026-07-03 10:45:02,623 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:02,711 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:02,961 [INFO] telethon.client.uploads: Uploading file of 149414 bytes in 2 chunks of 131072
+2026-07-03 10:45:04,814 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:04,847 [INFO] Monitor: 🗑 Удалено id=190086 от @tester00131
+2026-07-03 10:45:04,852 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:04,940 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:05,184 [INFO] telethon.client.uploads: Uploading file of 197645 bytes in 2 chunks of 131072
+2026-07-03 10:45:07,358 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:07,368 [INFO] Monitor: 🗑 Удалено id=190082 от @tester00131
+2026-07-03 10:45:07,375 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:07,462 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:07,710 [INFO] telethon.client.uploads: Uploading file of 433455 bytes in 4 chunks of 131072
+2026-07-03 10:45:11,429 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:11,440 [INFO] Monitor: 🗑 Удалено id=190087 от @tester00131
+2026-07-03 10:45:11,447 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:11,535 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:11,800 [INFO] telethon.client.uploads: Uploading file of 159036 bytes in 2 chunks of 131072
+2026-07-03 10:45:14,407 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:14,418 [INFO] Monitor: 🗑 Удалено id=190083 от @tester00131
+2026-07-03 10:45:14,426 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:15,000 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:15,228 [INFO] telethon.client.uploads: Uploading file of 447929 bytes in 4 chunks of 131072
+2026-07-03 10:45:18,429 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:45:18,439 [INFO] Monitor: 🗑 Удалено id=190084 от @tester00131
+2026-07-03 10:45:18,447 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:45:18,534 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:45:18,751 [INFO] telethon.client.users: Sleeping for 39s (0:00:39) on SendMessageRequest flood wait
+2026-07-03 10:45:57,982 [INFO] telethon.client.uploads: Uploading file of 374759 bytes in 3 chunks of 131072
+2026-07-03 10:46:00,342 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-03 10:46:00,356 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:46:00,442 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:46:01,642 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 10:46:01,642 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 10:46:01,642 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 10:46:01,642 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:46:01,644 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:47:06,679 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:47:06,680 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:47:06,680 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:47:20,133 [INFO] Monitor: 🗑 Удалено id=190106 от @tester00131
+2026-07-03 10:49:37,700 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:49:37,897 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:49:37,898 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.41:443/TcpFull...
+2026-07-03 10:49:39,439 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.41:443/TcpFull complete!
+2026-07-03 10:49:39,440 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=2, ip_address='149.154.167.41', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-03 10:50:24,755 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-03 10:50:24,755 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:50:24,756 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.41:443/TcpFull...
+2026-07-03 10:50:24,756 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.41:443/TcpFull complete!
+2026-07-03 10:50:24,762 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-03 10:50:24,762 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:50:24,763 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-03 10:50:24,770 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-03 10:50:36,892 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-03 10:50:36,897 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:50:36,898 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-03 10:50:36,898 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-03 10:50:36,898 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-03 10:50:36,898 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-03 10:50:36,898 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-03 10:50:36,901 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-03 10:50:36,903 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-03 10:50:36,903 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:50:36,903 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 10:50:36,905 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 10:50:38,365 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-03 10:50:38,871 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-03 10:50:38,872 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-03 10:50:38,874 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 10:50:38,876 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 10:50:39,607 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-03 10:50:39,610 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-03 10:50:39,610 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-03 10:50:39,610 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-03 10:50:39,610 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-03 10:50:39,610 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-03 10:50:56,155 [INFO] Monitor: 🗑 Удалено id=618 от @Pipitka_a
+2026-07-03 10:50:56,886 [INFO] Monitor: 🗑 Удалено id=617 от @Pipitka_a
+2026-07-03 10:50:57,453 [INFO] telethon.client.uploads: Uploading file of 21769 bytes in 1 chunks of 131072
+2026-07-03 10:50:58,081 [INFO] Monitor: ✅ Медиа (sticker) отправлено владельцу
+2026-07-03 10:50:58,100 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:50:58,206 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:50:58,332 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-03 10:51:00,140 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:51:00,140 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.56', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-03 10:51:35,146 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:51:35,238 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:51:41,167 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:51:51,511 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:51:51,605 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:52:19,480 [INFO] Monitor: 🗑 Удалено id=190115 от @tester00131
+2026-07-03 10:52:19,842 [INFO] telethon.client.uploads: Uploading file of 13775 bytes in 1 chunks of 131072
+2026-07-03 10:52:20,343 [INFO] Monitor: ✅ Медиа (voice) отправлено владельцу
+2026-07-03 10:52:20,359 [INFO] Monitor: 🗑 Удалено id=190113 от @tester00131
+2026-07-03 10:52:20,367 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:52:20,459 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:52:21,059 [INFO] Monitor: 🗑 Удалено id=190114 от @tester00131
+2026-07-03 10:52:21,426 [INFO] telethon.client.uploads: Uploading file of 19515 bytes in 1 chunks of 131072
+2026-07-03 10:52:21,964 [INFO] Monitor: ✅ Медиа (sticker) отправлено владельцу
+2026-07-03 10:52:21,980 [INFO] Monitor: 🗑 Удалено id=190116 от @tester00131
+2026-07-03 10:52:21,987 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:52:22,085 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:52:22,384 [INFO] Monitor: 🗑 Удалено id=190112 от @tester00131
+2026-07-03 10:52:22,737 [INFO] telethon.client.uploads: Uploading file of 209241 bytes in 2 chunks of 131072
+2026-07-03 10:52:24,704 [INFO] Monitor: ✅ Медиа (video_note) отправлено владельцу
+2026-07-03 10:52:24,736 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 10:52:24,894 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-03 10:53:39,458 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-03 10:53:39,459 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-03 10:53:39,459 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!
+2026-07-03 10:59:39,936 [INFO] Assistant: 📨 От владельца: Ай те зе бест
+2026-07-03 10:59:39,972 [INFO] LMStudio: 🤖 Авто-выбрана модель: qwen2.5-coder-3b-instruct
+2026-07-03 10:59:50,250 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:01:00,865 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:24:03,746 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 11:24:03,750 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 11:24:03,751 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 11:24:07,873 [INFO] Monitor: 📸 Альбом 14264565147990498: 2 фото
+2026-07-03 11:31:01,150 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:31:01,150 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 11:46:01,330 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:46:01,492 [INFO] telethon.client.updates: Got difference for channel 1835666204 updates
+2026-07-03 11:54:48,363 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:56:43,395 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 11:56:45,596 [INFO] telethon.client.updates: Got difference for channel 2482681017 updates
+2026-07-03 12:11:43,523 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 12:16:22,522 [INFO] telethon.client.updates: Got difference for channel 2418281735 updates
+2026-07-03 12:17:05,563 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-03 12:17:09,178 [INFO] telethon.client.updates: Got difference for channel 2447409708 updates
+2026-07-03 12:43:44,980 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 12:43:46,128 [WARNING] Monitor: send_file не удался: You can't forward messages from a protected chat (caused by SendMediaRequest)
+2026-07-03 13:04:20,172 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:05:01,833 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:07:57,571 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:10:09,666 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 13:23:08,047 [INFO] Assistant: 📨 От владельца: Test
+2026-07-03 13:23:10,163 [WARNING] LMStudio: Не удалось получить список моделей: Cannot connect to host localhost:1234 ssl:default [None]
+2026-07-03 13:23:43,274 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 13:27:45,776 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:27:47,840 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 13:29:05,870 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:32:06,124 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-03 13:32:06,125 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 13:44:05,988 [INFO] telethon.client.updates: Got difference for channel 3910900712 updates
+2026-07-03 13:57:48,110 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:12:48,229 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:48:37,756 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:49:07,273 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:51:07,286 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:51:55,985 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 14:53:37,281 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:55:50,071 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:56:45,518 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 14:57:22,999 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 14:58:18,192 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 14:58:30,810 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 15:13:30,909 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 15:24:03,402 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 15:24:03,520 [INFO] telethon.client.updates: Got difference for channel 2447409708 updates
+2026-07-03 15:25:33,345 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 15:38:38,791 [INFO] telethon.client.updates: Got difference for channel 1610581641 updates
+2026-07-03 15:40:33,689 [INFO] telethon.client.updates: Got difference for channel 2447409708 updates
+2026-07-03 15:42:57,364 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 15:42:57,374 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 15:42:57,375 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 15:42:57,375 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 15:42:57,380 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 15:42:57,381 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 15:42:57,382 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 15:42:57,391 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 15:42:57,548 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-07-03 15:42:57,558 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-07-03 15:43:08,567 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-03 15:43:08,567 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-03 15:43:19,568 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-03 15:43:19,568 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-03 15:43:30,582 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-03 15:43:30,583 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-03 15:43:41,607 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-07-03 15:43:41,607 [WARNING] telethon.network.mtprotosender: Attempt 5 at connecting failed: TimeoutError: 
+2026-07-03 15:43:52,621 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-07-03 15:43:52,621 [WARNING] telethon.network.mtprotosender: Attempt 6 at connecting failed: TimeoutError: 
+2026-07-03 15:43:53,630 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 1 with ConnectionError
+2026-07-03 15:43:53,630 [INFO] telethon.network.mtprotosender: Failed reconnection attempt 1 with ConnectionError
+2026-07-03 15:43:54,640 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 15:43:54,641 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 15:44:04,652 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-07-03 15:44:04,652 [WARNING] telethon.network.mtprotosender: Attempt 1 at connecting failed: TimeoutError: 
+2026-07-03 15:44:15,668 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-03 15:44:15,668 [WARNING] telethon.network.mtprotosender: Attempt 2 at connecting failed: TimeoutError: 
+2026-07-03 15:44:26,684 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-03 15:44:26,684 [WARNING] telethon.network.mtprotosender: Attempt 3 at connecting failed: TimeoutError: 
+2026-07-03 15:44:37,706 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-03 15:44:37,706 [WARNING] telethon.network.mtprotosender: Attempt 4 at connecting failed: TimeoutError: 
+2026-07-03 15:44:38,721 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 15:44:38,721 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 16:02:07,431 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-03 16:02:07,432 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-03 16:06:37,334 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-03 16:06:37,431 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-03 16:21:03,002 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:21:03,002 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:21:03,003 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 16:21:03,003 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 16:21:03,007 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 16:21:09,713 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:21:09,713 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:21:09,713 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 16:21:09,714 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 16:21:09,716 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 16:21:37,726 [INFO] telethon.client.updates: Got difference for channel 1610581641 updates
+2026-07-03 16:24:04,506 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:24:04,506 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:24:04,506 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 16:24:04,507 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-03 16:24:04,510 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-03 16:24:09,732 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:24:09,733 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-03 16:24:09,733 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-03 16:24:09,733 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-03 16:24:09,736 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-03 16:30:49,437 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-03 16:30:49,438 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-03 16:30:49,461 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-03 16:30:49,461 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-03 16:30:49,464 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-03 16:30:49,473 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-04 11:23:20,989 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-04 11:23:21,005 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-04 11:23:21,110 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-04 11:23:21,110 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-04 11:23:21,110 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-04 11:23:21,111 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-04 11:23:21,111 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-04 11:23:21,116 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-04 11:23:21,119 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-04 11:23:21,119 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-04 11:23:21,120 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-04 11:23:21,125 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-04 11:23:22,612 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-04 11:23:22,810 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-04 11:23:22,810 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-04 11:23:22,813 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-04 11:23:22,818 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-04 11:23:23,560 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-04 11:23:23,562 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-04 11:23:23,562 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-04 11:23:23,562 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-04 11:23:23,563 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-04 11:23:23,563 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-04 11:25:42,580 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:38:23,499 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 11:38:23,499 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:38:24,386 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-04 11:40:42,514 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 11:40:42,716 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-04 11:40:45,356 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 11:40:47,019 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 11:40:47,448 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 11:40:47,448 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:40:47,448 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:40:52,836 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-04 11:40:53,792 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 11:53:23,674 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 11:53:23,782 [INFO] telethon.client.updates: Got difference for channel 2829561399 updates
+2026-07-04 11:53:23,782 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:53:23,782 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:53:24,720 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 11:53:24,721 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:53:25,337 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-04 11:53:25,337 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 11:53:26,426 [INFO] Monitor: 📸 Альбом 14265265241551050: 2 фото
+2026-07-04 11:55:42,622 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 11:55:42,814 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-04 11:55:42,816 [INFO] Monitor: 🗑 Удалено id=3562 от —
+2026-07-04 11:55:43,194 [INFO] telethon.client.updates: Got difference for channel 1828446477 updates
+2026-07-04 11:55:47,136 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 11:55:47,574 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 12:08:23,911 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 12:08:23,911 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:24,033 [INFO] telethon.client.updates: Got difference for channel 3122719777 updates
+2026-07-04 12:08:24,033 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:24,644 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-04 12:08:24,644 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:24,644 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:24,645 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:24,645 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:26,981 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-04 12:08:26,985 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:08:27,960 [INFO] telethon.client.updates: Got difference for channel 1510151097 updates
+2026-07-04 12:08:28,485 [INFO] Monitor: 📸 Альбом 14265273426201890: 4 фото
+2026-07-04 12:08:31,075 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 12:09:28,335 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:09:31,727 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:09:43,042 [WARNING] Monitor: send_file не удался: You can't forward messages from a protected chat (caused by SendMediaRequest)
+2026-07-04 12:09:45,514 [WARNING] Monitor: send_file не удался: You can't forward messages from a protected chat (caused by SendMediaRequest)
+2026-07-04 12:10:02,864 [INFO] telethon.client.updates: Got difference for channel 2018630738 updates
+2026-07-04 12:10:47,256 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 12:10:47,679 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 12:10:49,856 [INFO] telethon.client.updates: Got difference for channel 2018630738 updates
+2026-07-04 12:11:18,938 [INFO] Monitor: 🗑 Удалено id=4541 от @flflflflflffflll
+2026-07-04 12:11:18,944 [INFO] Monitor: 🗑 Удалено id=8989 от @flflflflflffflll
+2026-07-04 12:12:02,398 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 12:12:02,502 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-04 12:23:24,018 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 12:23:24,150 [INFO] telethon.client.updates: Got difference for channel 3122719777 updates
+2026-07-04 12:23:31,194 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 12:25:47,372 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 12:25:47,790 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 12:25:47,791 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:27:02,594 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 12:38:24,129 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 12:38:31,340 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 12:40:47,741 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 12:40:50,774 [INFO] telethon.client.updates: Got difference for channel 2018630738 updates
+2026-07-04 12:53:24,238 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 12:53:31,464 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 12:55:47,849 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 12:55:55,151 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 12:55:55,152 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:55:55,152 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:55:55,152 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:55:55,153 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:55:55,153 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:55:55,153 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 12:56:00,387 [INFO] Monitor: 📸 Альбом 14265294197879242: 6 фото
+2026-07-04 12:56:00,814 [ERROR] Monitor: Альбом в лог -1003807073500: You can't forward messages from a protected chat (caused by SendMultiMediaRequest)
+2026-07-04 12:57:02,947 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 13:08:24,349 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 13:08:31,589 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 13:08:31,590 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:44,244 [INFO] telethon.client.updates: Got difference for channel 1835666204 updates
+2026-07-04 13:10:44,355 [INFO] telethon.client.updates: Got difference for channel 1846125598 updates
+2026-07-04 13:10:44,355 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:45,124 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-04 13:10:47,957 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 13:10:48,654 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 13:10:48,657 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:48,657 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:48,658 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:48,658 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:10:52,544 [INFO] Monitor: 📸 Альбом 14265303677159050: 4 фото
+2026-07-04 13:12:03,150 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 13:23:24,455 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 13:23:31,922 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 13:25:48,501 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 13:38:24,580 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 13:38:32,036 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 13:40:48,706 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 13:40:55,467 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 13:40:58,329 [INFO] telethon.client.updates: Got difference for channel 1808890082 updates
+2026-07-04 13:40:58,329 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:40:58,330 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:41:00,582 [INFO] Monitor: 📸 Альбом 14265315468561706: 2 фото
+2026-07-04 13:42:03,372 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 13:53:24,694 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 13:53:32,240 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 13:55:44,875 [INFO] telethon.client.updates: Got difference for channel 1846125598 updates
+2026-07-04 13:55:49,515 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 13:57:04,189 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 13:57:04,190 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:59:41,998 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 13:59:42,098 [INFO] telethon.client.updates: Got difference for channel 1828446477 updates
+2026-07-04 13:59:42,099 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:59:42,319 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 13:59:42,320 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:59:42,320 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:59:42,320 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 13:59:45,233 [INFO] Monitor: 📸 Альбом 14265330057395994: 3 фото
+2026-07-04 14:04:43,229 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 14:04:43,333 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 14:08:24,803 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 14:10:49,625 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 14:12:04,326 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 14:23:24,917 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 14:25:48,050 [INFO] telethon.client.updates: Got difference for channel 1743394420 updates
+2026-07-04 14:25:49,742 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 14:27:04,443 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 14:34:43,562 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-04 14:34:43,563 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 14:34:44,068 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 14:34:44,069 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 14:34:44,182 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-04 14:38:25,036 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-04 14:38:25,148 [WARNING] telethon.client.updates: Cannot get difference since the account is likely misusing the session: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID 9e84bc99. See the FAQ for more details. Remaining bytes: b'\x99\xbc\x84\x9e\x00\x00\x00\x00"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x80\x02\x00\x00\x00\x00\x00\x00\xb9\x04\x00\x00\x00\x00\x00\x00\xbf!//"\x17QY\x00o\x9f\n\x00\x00\x00\x00\x7f\x02\x00\x00\xb9\x04\x00\x00\x00\x00\x00\x00\xd9\x04\xbab+o\xef\x95\x80\x01\x80\x00\x00\x00\x00\x00\n\x04\x00\x00"\x17QY\xae\xed\x96[\x01\x00\x00\x00\x1e7\xa5\xa2\xdcT\xeb\xe2\x00\x00\x00\x00\xe4\xfdHj\xfe\x8c\x01\x00\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\n\xf0\x9f\x91\x81 \xd0\x90\xd0\xba\xd0\xba\xd0\xb0\xd1\x83\xd0\xbd\xd1\x82: \xd0\x94\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x81 (+79526859678)\n\xf0\x9f\x93\xa8 \xd0\x98\xd0\x97 \xd0\x93\xd0\xa0\xd0\xa3\xd0\x9f\xd0\x9f\xd0\xab/\xd0\x9a\xd0\x90\xd0\x9d\xd0\x90\xd0\x9b\xd0\x90\n\n\xf0\x9f\x93\xa2 \xd0\x9d\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5:  \xd0\xa1\xd0\x92#\xd0\xa2\xd0\x95\xd0\xa0\xd0\xa8\xd0\x90\n\xf0\x9f\x94\x97 Username:  \xe2\x80\x94\n\xf0\x9f\x86\x94 ID:        2430611207\n\xf0\x9f\x92\xac \xd0\xa7\xd0\xb0\xd1\x82:       \xd0\xa1\xd0\x92#\xd0\xa2\xd0\x95\xd0\xa0\xd0\xa8\xd0\x90\n\xf0\x9f\x95\x90 \xd0\x92\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f:     04.07.2026 12:29:01 UTC\n\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\x15\xc4\xb5\x1c\x02\x00\x00\x00K\xe3i\x9b,\x00\x00\x00\x0c\x00\x00\x00K\xe3i\x9b\x84\x00\x00\x00\n\x00\x00\x00\xc2\x0f\xd6\x83\x00\x00\x00\x00\x00\x00\x00\x00\xdd\x04\x00\x00\xda\x04\x00\x00\x01\x00\x00\x00\xd9\x04\xbab+o\xef\x95\x00\x03\x80\x00\x00\x00\x00\x00\x0b\x04\x00\x00"\x17QY\xae\xed\x96[\x01\x00\x00\x00\x1e7\xa5\xa2\xdcT\xeb\xe2\x00\x00\x00\x00\xe5\xfdHj\xfe\xc2\x02\x00\xf0\x9f\x96\xbc \xd0\xa4\xd0\xbe\xd1\x82\xd0\xbe\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84\xd0\xb8\xd1\x8f\n\xd0\x9f\xd0\xbe\xd0\xb4\xd0\xbf\xd0\xb8\xd1\x81\xd1\x8c: \xe2\x80\xbc\xef\xb8\x8f \xd0\xa2\xd0\xb5\xd0\xb1\xd0\xb5 \xd0\xbd\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb4\xd0\xbe\xd0\xb5\xd0\xbb\xd0\xbe \xd0\xbf\xd0\xbb\xd0\xb0\xd1\x82\xd0\xb8\xd1\x82\xd1\x8c \xd0\xb7\xd0\xb0 \xd0\xbc\xd1\x83\xd1\x81\xd0\xbe\xd1\x80\xd0\xbd\xd1\x8b\xd0\xb9 VPN?\n\n\xd0\x9f\xd0\xbe\xd1\x81\xd1\x82\xd0\xbe\xd1\x8f\xd0\xbd\xd0\xbd\xd0\xbe \xd0\xb2\xd1\x81\xd1\x91 \xd0\xbf\xd0\xb0\xd0\xb4\xd0\xb0\xd0\xb5\xd1\x82.\n\xd0\xa6\xd0\xb5\xd0\xbd\xd1\x8b \xd0\xbf\xd0\xbe 400\xe2\x82\xbd \xd0\xb2 \xd0\xbc\xd0\xb5\xd1\x81\xd1\x8f\xd1\x86.\n50% \xd0\xbd\xd0\xb5 \xd0\xbd\xd1\x83\xd0\xb6\xd0\xbd\xd1\x8b \xd1\x81\xd0\xb5\xd1\x80\xd0\xb2\xd0\xb5\xd1\x80\xd0\xbe\xd0\xb2.\n\n\xf0\x9f\x95\x8a \xd0\x91\xd0\xb5\xd0\xbb\xd1\x8b\xd0\xb9 \xd0\x90\xd0\xb8\xd1\x81\xd1\x82 - \xd0\xba\xd0\xbe\xd0\xbc\xd1\x84\xd0\xbe\xd1\x80\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbf\xd0\xbe\xd0\xbb\xd1\x91\xd1\x82 \xd0\xb2 \xd0\xb8\xd0\xbd\xd1\x82\xd0\xb5\xd1\x80\xd0\xbd\xd0\xb5\xd1\x82\xd0\xb5.\n\n\xf0\x9f\x94\xa5 \xd0\x91\xd0\xbe\xd0\xbb\xd0\xb5\xd0\xb5 7 \xd0\xb2\xd0\xb8\xd0\xb4\xd0\xbe\xd0\xb2 \xd0\xbf\xd0\xbe\xd0\xb4\xd0\xba\xd0\xbb\xd1\x8e\xd1\x87\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x8f \n\xf0\x9f\x94\xa5 \xd0\x91\xd0\xbe\xd0\xbb\xd0\xb5\xd0\xb5 10 \xd1\x81\xd1\x82\xd1\x80\xd0\xb0\xd0\xbd \xd0\xb2 1 \xd0\xbf\xd0\xbe\xd0\xb4\xd0\xbf\xd0\xb8\xd1\x81\xd0\xba\xd0\xb5\n\xf0\x9f\x94\xa5 \xd0\x92\xd0\xb8\xd0\xb4\xd1\x8b \xd0\xbf\xd0\xbe\xd0\xb4\xd0\xba\xd0\xbb\xd1\x8e\xd1\x87\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x8f \xd0\xb4\xd0\xbb\xd1\x8f \xd0\xba\xd0\xb0\xd0\xb6\xd0\xb4\xd0\xbe\xd0\xb3\xd0\xbe\n\xf0\x9f\x94\xa5 \xd0\x9e\xd0\xb1\xd1\x85\xd0\xbe\xd0\xb4\xd1\x8b \xd0\xb1\xd0\xb5\xd0\xbb\xd1\x8b\xd1\x85 \xd1\x81\xd0\xbf\xd0\xb8\xd1\x81\xd0\xba\xd0\xbe\xd0\xb2\n\xf0\x9f\x94\xa5 YouTube \xd0\xb1\xd0\xb5\xd0\xb7 \xd1\x80\xd0\xb5\xd0\xba\xd0\xbb\xd0\xb0\xd0\xbc\xd1\x8b\n...\xd0\xb8 \xd0\xb5\xd1\x89\xd1\x91 \xd0\xbc\xd0\xbd\xd0\xbe\xd0\xb3\xd0\xbe \xd0\xbc\xd0\xbd\xd0\xbe\xd0\xb3\xd0\xbe \xd0\xb2\xd1\x81\xd0\xb5\xd0\xb3\xd0\xbe\n\nVPN \xd0\xb4\xd0\xb5\xd0\xbb\xd0\xb0\xd0\xb5\xd1\x82\xd1\x81\xd1\x8f \xd0\xba\xd0\xb0\xd0\xba \xd0\xb4\xd0\xbb\xd1\x8f \xd1\x81\xd0\xb5\xd0\xb1\xd1\x8f, \xd1\x83\xd0\xb4\xd0\xbe\xd0\xb1\xd0\xbd\xd0\xbe - \xd0\xb1\xd1\x8b\xd1\x81\xd1\x82\xd1\x80\xd0\xbe - \xd0\xbd\xd0\xb5 \xd0\xb4\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb3\xd0\xbe \xf0\x9f\xa4\x8d\x00\x00c\xeb\x16\xe2\x01\x00\x00\x00ez\x19\xfb\x00\x00\x00\x00\x12\x1ak\x1b\xb4.\xb1I\xfc\x80\xc9\x1b\x07ZL\xb3!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\x0bjH\xfe\xc0N\xa4P\x9c*\xd9bwM\xe9\xd5$\xb0\x8br\xb3\x00\x00,T6j\x15\xc4\xb5\x1c\x04\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\x97\x01(%\xcfL\x00\t\x00\xd3\x89R\x0f\xc8?_\xf1\xa6/@*E\xe9\xc8?\x95j!\xa4\x02I\x03\xf0\x02\x8c`}\xda\x7f\x18\xe9\xfa\x1ac\x9f\x9b\xa6=\xb1@\x0c~\x0fJ)\x18\xf3E0\x1c\x9d\xb9\xc5?\x1f\xf4\xd0~\xb4\xd8\xd4\xbe\x02\xa9$\xd3\xf67\xfc\xf2?\x91\xa4\x02c\xd6O\xe7Llg\x83\x9fz~\xc6\xff\x00\x9eG\xf24\x85\x1c\xf3\xe5\x90>\x94\x86F\xd4P\xd4S\x10\xf4\x00 ;\xc6s\xd3\xbd;\x0b\xfd\xff\x00\xd2\x8a)\x0cC\xb3\xfb\xc7\xf2\xa4\xc2`\xe1\x8f\xe5E\x14\x01\x1bQE\x14\xc0`\x8e\xc7u\x01m\x00\x00\'\x01\x00\x00@\x01\x00\x00\'`\x00\x00`\x8e\xc7u\x01x\x00\x00\xe1\x02\x00\x00 \x03\x00\x00-l\x01\x00\x95\xfb>\xfa\x01y\x00\x00\x9b\x04\x00\x00\x00\x05\x00\x00\x15\xc4\xb5\x1c\x05\x00\x00\x00J.\x00\x00\xecl\x00\x00\xa1\xc1\x00\x002\x19\x01\x00\x18\xca\x01\x00\x02\x00\x00\x00\xc2\x0f\xd6\x83\x00\x00\x00\x00\x00\x00\x00\x00\xdd\x04\x00\x00\xdb\x04\x00\x00\x01\x00\x00\x00\xd9\x04\xbab+o\xef\x95\x80\x01\x80\x00\x00\x00\x00\x00\x0c\x04\x00\x00"\x17QY\xae\xed\x96[\x01\x00\x00\x00\x1e7\xa5\xa2\xdcT\xeb\xe2\x00\x00\x00\x00\x19\xfeHj\xfe\x8a\x01\x00\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\n\xf0\x9f\x91\x81 \xd0\x90\xd0\xba\xd0\xba\xd0\xb0\xd1\x83\xd0\xbd\xd1\x82: \xd0\x94\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x81 (+79526859678)\n\xf0\x9f\x93\xa8 \xd0\x98\xd0\x97 \xd0\x93\xd0\xa0\xd0\xa3\xd0\x9f\xd0\x9f\xd0\xab/\xd0\x9a\xd0\x90\xd0\x9d\xd0\x90\xd0\x9b\xd0\x90\n\n\xf0\x9f\x93\xa2 \xd0\x9d\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5:  \xd0\x9f\xd0\xb5\xd0\xba\xd0\xb0\xd1\x80\xd0\xbd\xd1\x8f\n\xf0\x9f\x94\x97 Username:  \xe2\x80\x94\n\xf0\x9f\x86\x94 ID:        1418440636\n\xf0\x9f\x92\xac \xd0\xa7\xd0\xb0\xd1\x82:       \xd0\x9f\xd0\xb5\xd0\xba\xd0\xb0\xd1\x80\xd0\xbd\xd1\x8f\n\xf0\x9f\x95\x90 \xd0\x92\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f:     04.07.2026 12:28:45 UTC\n\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\xe2\x94\x81\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00K\xe3i\x9b,\x00\x00\x00\x0c\x00\x00\x00K\xe3i\x9b\x83\x00\x00\x00\n\x00\x00\x00\xc2\x0f\xd6\x83\x00\x00\x00\x00\x00\x00\x00\x00\xdd\x04\x00\x00\xdc\x04\x00\x00\x01\x00\x00\x00\xd9\x04\xbab+o\xef\x95\x00\x03\x80\x00\x00\x00\x00\x00\r\x04\x00\x00"\x17QY\xae\xed\x96[\x01\x00\x00\x00\x1e7\xa5\xa2\xdcT\xeb\xe2\x00\x00\x00\x00\x19\xfeHj\xd1\xf0\x9f\x8e\xa5 \xd0\x92\xd0\xb8\xd0\xb4\xd0\xb5\xd0\xbe\n\xd0\x9f\xd0\xbe\xd0\xb4\xd0\xbf\xd0\xb8\xd1\x81\xd1\x8c: \xd0\x9a\xd0\xb0\xd0\xba \xd0\xb2\xd1\x8b\xd0\xb3\xd0\xbb\xd1\x8f\xd0\xb4\xd0\xb8\xd1\x82, \xd0\xba\xd0\xbe\xd0\xb3\xd0\xb4\xd0\xb0 \xd1\x8f\xd0\xbf\xd0\xbe\xd0\xbd\xd1\x86\xd1\x8b \xd1\x81\xd0\xb0\xd0\xbc\xd0\xb8 \xd0\xbe\xd0\xb7\xd0\xb2\xd1\x83\xd1\x87\xd0\xb8\xd0\xb2\xd0\xb0\xd1\x8e\xd1\x82 \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb2\xd0\xbe\xd1\x80\xd1\x8f\xd1\x89\xd0\xb8\xd1\x85 \xd0\xbf\xd0\xb5\xd1\x80\xd1\x81\xd0\xbe\xd0\xbd\xd0\xb0\xd0\xb6\xd0\xb5\xd0\xb9 \xd0\xb0\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb5.\n\n\xd0\x9c\xd0\xbe\xd1\x81\xd0\xba\xd0\xbe\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xb0\xd0\xba\xd1\x86\xd0\xb5\xd0\xbd\xd1\x82\x00\x00\xd9\xcc\xd8Ra\x00\x00\x00\xd8\xc4\xd4\x8f\x01\x00\x00\x00\xd8\x9b\x00\x00\xb4\xefHJU\xaeh\x8f\x0b\xda\x12\xe9!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\xa0\xcf65 3[\xe1\xea\xee\x13b\xdb\xa5\xe4\xb0\x00\x00\xfe\xfbHj\tvideo/mp4\x00\x00\xff\x17\xb0\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xac\x01\x1e(\x85-"\xdas*d\xf4\xe0\xf1Hmc\x1f\xf2\xd9?*\xbc\xd6p\x16E\t\xcb7RON\xf4\xf6\xb0\xb5\x07\x02?\xfcx\xd3\xb0\\\xc9x\xa3L\x1d\xe1\x86y\x02\x8bF\xc5\xdc`g\x1b\xba\x1a\xd0\xb8\xb4\x82?-\x82`o\x01\xb9=*i4\xfbn\x8a\x85O\xa8cE\x82\xe2F\xe8\xd8\xc3\xa9\xfa\x1a*!n\x96\xd9-\x18t\xfe\xf0\xea?\n)X.E\x1e\xa2D\xfec\xaf\xca\x14\x80\x16\xa5\xfe\xd3\x8b\xfb\x8fYFP\x0e1O\xab\x11v\xe6\xfa9\xa1(\xaa\xc0\xf6\xcdK\xfd\xa7\x19\xea\xaf\x9e\xfcVu\x14\x01zmD\x15\x024?\xed\x06\xf4\xa2\xa8\xd1@\x1f\x00\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf2\x00\x00\x00\x0f\'\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\x96C\x8bl\xe7\x1b0@\x80\x07\x00\x00\xae\x05\x00\x00\x04h264\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\x15\xc4\xb5\x1c\x0e\x00\x00\x00\xd8\xc4\xd4\x8f\x01\x00\x00\x00\x14\x9e\x00\x00 \x8eHJi\xd7\xd5\xcdH0\x83\xe5!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc04\xda\xa2\x02/\x11\xd1!\xd1\xc8^8\xbd\xfd\xc1\xee\x00\x00O\xfcHj\tvideo/mp4\x00\x00\xdeX2\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xac\x01\x1e(\x85-"\xdas*d\xf4\xe0\xf1Hmc\x03\xfdr~Uy\xac\xe0,\x8a\x13\x96n\xa4\x9e\x9d\xe9\xedaj\x0e\x04\x7f\xf8\xf1\xa7`\xb9\x92\xf1F\x98%\xc3\x0c\xf2\x05\x16\x8d\x8b\xb8\xc0\xce7t5\xa1qi\x04~[\x04\xc0\xde\x03rzT\xd2i\xf6\xdd\x15\n\x9fP\xc6\x8b\x05\xc4\x8d\xd1\xb1\x87S\xf44TB\xdd-\xb2Z0\xe9\xfd\xe1\xd4~\x14R\xb0\\\x8a=D\x89\xfc\xc7_\x94)\x00-K\xfd\xa7\x17\xf7\x1e\xb2\x8c\x80\x1cb\x9fV"\xed\xcd\xf4sBQU\x81\xed\x9a\x97\xfbN3\xd5_=\xf8\xac\xea(\x02\xf4\xda\x88*\x04h\x7f\xda\r\xe9EQ\xa2\x80?\x00\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf2\x00\x00\x00\x07\'\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\x0e-\xb2\x9d\xef\xa7%@\x90\x05\x00\x008\x04\x00\x00\x04av01\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00.\x9b\x00\x00xbHJE\xae\x99\x0eX2\t\xca!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\xb2\x03\xba\xdd\xcb\x17\x89a=\xf0B\x9a\x9f\xd8\x82Z\x00\x00O\xfcHj\x15application/x-mpegurl\x00\x00\xdd\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5352684425219972628\xd8\xc4\xd4\x8f\x01\x00\x00\x00&\x9b\x00\x00\x0e\xbeIJ\x8al\x01u}\xec\x0b\x00!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\xa6\x7fq\x97\x9d\xbb\xcf\xb44\x85\x13w\x7f\xd2\x03\xa2\x00\x00O\xfcHj\tvideo/mp4\x00\x003kG\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xad\x01\x1e(\x85-"\xdas*\xe4\xf4\xe0\xf1Hmc\x1f\xf2\xd9\x7f*\xbc\xd6P\x16D\x08w3u$\xf4\xefOk\x0bPp#\xff\x00\xc7\x8d;\x05\xcc\x97\x8a4\xc1\xde\x18g\x90(\xb4l]\xa0\x19\xc6\xee\x86\xaf\xdcZA\x1f\x96\xc107\x80\xdc\x9e\x95<\x9a}\xb0\xe1P\xa9\xf5\x0ch\xb0\\H\xe4F\xc6\x1dO\xd0\xd1Q-\xba[d\xb4a\xd3\xfb\xc3\xa8\xfc(\xa5`\xb9\x0cz\x89\x13\xf9\x8e\xbf(R\x00Z\x9b\xfbN?\xee=e\x19\x06q\x8a}X\x8b\xb77\xd1\xcd\tEV\x04\xf4\xcdJ58\xcfT|\xf7\xac\xdaZ\x00\xbd6\xa2\n\x81\x1a\x7f\xbc\x1b\xd2\x8a\xa3E\x00\x7f\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf3\x00\x00\x00\xd8&\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00=\n\xd7\xa3p}%@\x90\x05\x00\x008\x04\x00\x00\x04h264\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00B\xa5\x00\x00\x98\x05IJz,\xe5\xf6M\xe1\x8c\x10!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\x96\xba\xa5)\x93\x1eiG \xb4\x0bV\xd3\xe5P\xba\x00\x00O\xfcHj\x15application/x-mpegurl\x00\x00\xdf\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5353018599445404454\xd8\xc4\xd4\x8f\x01\x00\x00\x00%\xa3\x00\x00R\xacHJ\xf0\xd6y8\xb7u\x12\xbd!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc06\xb0vO\x10\x96=\xb4\xc2:\xcbu\xeca\xe1F\x00\x00O\xfcHj\tvideo/mp4\x00\x00\xea0\x16\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xac\x01\x1e(\x85-"\xdas*d\xf4\xe0\xf1Hmc\x03\xfdr~Uy\xac\xe0,\x8a\x13\x96n\xa4\x9e\x9d\xe9\xedaj\x0e\x04\x7f\xf8\xf1\xa7`\xb9\x92\xf1F\x98%\xc3\x0c\xf2\x05\x16\x8d\x8b\xb8\xc0\xce7t5\xa1qi\x04~[\x04\xc0\xde\x03rzT\xd2i\xf6\xdd\x15\n\x9fP\xc6\x8b\x05\xc4\x8d\xd1\xb1\x87S\xf44TB\xdd-\xb2Z0\xe9\xfd\xe1\xd4~\x14R\xb0\\\x8a=D\x89\xfc\xc7_\x94)\x00-K\xfd\xa7\x17\xf7\x1e\xb2\x8c\x80\x1cb\x9fV"\xed\xcd\xf4sBQU\x81\xed\x9a\x97\xfbN3\xd5_=\xf8\xac\xea(\x02\xf4\xda\x88*\x04h\x7f\xda\r\xe9EQ\xa2\x80?\x00\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf2\x00\x00\x00\x07\'\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\xfe\xd4x\xe9&\x110@\xb4\x03\x00\x00\xd0\x02\x00\x00\x04av01\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00@\x9e\x00\x00<SIJ}\xcf\xd8c\x8f~,\x80!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\x8b\'\x05r1\xa1\x08;\x1f\x8a\xe5\xf3\xe5\xba\xc6\x01\x00\x00O\xfcHj\x15application/x-mpegurl\x00\x00\xda\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5352717625317172005\xd8\xc4\xd4\x8f\x01\x00\x00\x00\xa5\xa2\x00\x00.\rIJ\xbaL\xec%\xd6\nVM!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\x044l\xfb\xac\x84\x1e\x98l\xc6\x82\n\xad\x04\xaa/\x00\x00O\xfcHj\tvideo/mp4\x00\x00-\x1f \x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xaf\x01\x1e(\x85-"\xdas*\xe4\xf4\xe0\xf1M6\xb1\x8f\xf9l\xbf\x95_k(\x0b"\x84;\x99\xba\x92zw\xa7\xb5\x85\xa88\x11\xff\x00\xe3\xc6\x9d\x82\xe6K\xc5\x1a`\xef\x0c3\xc8\x14Z6.\xd0\x0c\xe3wCW\xee- \x8f\xcb`\x98\x1b\xc0nOJ\x9eM>\xdb\xa2\xa1S\xea\x18\xd1`\xb8\x91\xc8\x8d\x8c:\x9f\xa1\xa2\xa2\x16\xc9m\x92\xd1\x87O\xef\x0e\xa3\xf0\xa2\x95\x82\xe41\xea$O\xe6:\xfc\xa0\x10\x02\xfb\xd4\xdf\xdaq\xff\x00q\xeb(\xc8\x01\xc6)\xe3\x9a\xa1\x17no\xa3\x9a\x12\x8a\xac\t\xe9\x9a\x97\xfbN3\xd5\x1f=\xeb6\x96\x98\x17\xa6\xd4AP#O\xa8oJ*\x8d\x14\x01`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf3\x00\x00\x00\x8e&\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\xfe\xd4x\xe9&\x110@\xb4\x03\x00\x00\xd0\x02\x00\x00\x04h264\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00B\xa3\x00\x00\t}HJ\xa7\x1b\xa5\x86\xdd\xcd\x03\xd8!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0i\xbf,\xf8\xf9\x97\\\xa96A\x98\xc8\xfeMt\xe9\x00\x00O\xfcHj\x15application/x-mpegurl\x00\x00\xdb\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5352824123326243493\xd8\xc4\xd4\x8f\x01\x00\x00\x00\xcb\xa5\x00\x00\xa8\x9bHJV{\x91D\x99\xa6\x05\x1e!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\xf9\xfcn/\x05\xa4/u\x94\xed\\\x9d\x8a\x14\x8cT\x00\x00P\xfcHj\tvideo/mp4\x00\x00\xe8\xb7\x0b\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xac\x01\x1e(\x85-"\xdas*d\xf4\xe0\xf1Hmc\x03\xfdr~Uy\xac\xe0,\x8a\x13\x96n\xa4\x9e\x9d\xe9\xedaj\x0e\x04\x7f\xf8\xf1\xa7`\xb9\x92\xf1F\x98%\xc3\x0c\xf2\x05\x16\x8d\x8b\xb8\xc0\xce7t5\xa1qi\x04~[\x04\xc0\xde\x03rzT\xd2i\xf6\xdd\x15\n\x9fP\xc6\x8b\x05\xc4\x8d\xd1\xb1\x87S\xf44TB\xdd-\xb2Z0\xe9\xfd\xe1\xd4~\x14R\xb0\\\x8a=D\x89\xfc\xc7_\x94)\x00-K\xfd\xa7\x17\xf7\x1e\xb2\x8c\x80\x1cb\x9fV"\xed\xcd\xf4sBQU\x81\xed\x9a\x97\xfbN3\xd5_=\xf8\xac\xea(\x02\xf4\xda\x88*\x04h\x7f\xda\r\xe9EQ\xa2\x80?\x00\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf2\x00\x00\x00\x07\'\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\xfe\xd4x\xe9&\x110@x\x02\x00\x00\xe0\x01\x00\x00\x04av01\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00z\x9b\x00\x00T\x95HJx\xb2E\xd6\xff \x19\xe1!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\x87|\xa8\xbcYpj\xe1R\r\xf3pP\xe0p\x84\x00\x00P\xfcHj\x15application/x-mpegurl\x00\x00\xd8\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5352699302986687947\xd8\xc4\xd4\x8f\x01\x00\x00\x00t\xa2\x00\x00EmHJ\xac\x82\xf7h\xe9\'\xf9\x87!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\x18\xa2:\x9fW\x9eg9\x86X\xcaj-\xf5\xe01\x00\x00P\xfcHj\tvideo/mp4\x00\x00\xa3\x97\x0f\x00\x00\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00.\xbc\xb0\xe0\x01i\x00\x00\xad\x01\x1e(\x85-"\xdas"\xe4\xf4\xe0\xf1Hmc\x1f\xf2\xd5\x7f*\xbc\xd6P\x16E\x08r\xcd\xd4\xb1\xe9\xde\x9e\xd6\x16\xa0\xe0G\xff\x00\x8f\x1av\x0b\x99/\x14i\x83\xbc0\xcf Qh\xd8\xbb\x8c\x0c\xe3wCW\xee- \x8cF\xc107\x80\xdc\x9e\x95<\x9a}\xb08U*}C\x1a,\x17\x129\x11\xb1\x87S\xf44TKl\x96\xd9-\x18t\xfe\xf0\xea?\n)X.C\x1e\xa2D\xfec\xaf\xca\x01\x00/\xbdM\xfd\xa7\x17\xf7\x1e\xb2\x8c\x838\xc5<sV"\xed\xcd\xf4sBQU\x81\xed\x9a\x94jq\x9e\xa8\xf9\xefY\xb4P\x05\xf9\xb5 @\x11\xa7\xd47\xa5\x15F\x8a\x00\x00\x00`\x8e\xc7u\x01m\x00\x00@\x01\x00\x00\xf3\x00\x00\x00h&\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00H|\xc5C"\x00\x00\x00\xfe\xd4x\xe9&\x110@x\x02\x00\x00\xe0\x01\x00\x00\x04h264\x00\x00\x00h\x00Y\x15\x0cIMG_2054.MP4\x00\x00\x00\xd8\xc4\xd4\x8f\x00\x00\x00\x00\x04\xab\x00\x00\xe0\x8cIJ)J\xd6\x05\xdbK\xca\x11!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0u\xa6\xea\xc1S\xceU\xc2\xbf\xa1\xe8N^\x06\xf2"\x00\x00P\xfcHj\x15application/x-mpegurl\x00\x00\xd9\x01\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x1bmtproto:5352648300250047092\xd8\xc4\xd4\x8f\x00\x00\x00\x00\x9a\xa2\x00\x00^\xacIJ\xc1wQ\xb9\xc8\x9b2G!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0GfN0x\xb5\x80>5\xb2\x03o\x90\xf2\xf1-\x00\x00P\xfcHj\x1aapplication/x-tgstoryboard\x00xd\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00h\x00Y\x15\x13IMG_2054.MP4.sb.jpg\xd8\xc4\xd4\x8f\x00\x00\x00\x00T\x9f\x00\x005%IJ\x8b\xd2\xfeG\x8c2\x8e\x04!\x05\x00\x00\x00\x00\xe2\xebT\xdc\x00\x00\x04\rjH\xfe\xc0\xf7U\xa3\x16\x89H\xc2P\xb6\x06\xdb\xc4\x14\xf7p4\x00\x00P\xfcHj\x1dapplication/x-tgstoryboardmap\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x15\xc4\xb5\x1c\x02\x00\x00\x00\\\xc17l\x90\x00\x00\x00p\x00\x00\x00h\x00Y\x15\x1bmtproto:5352999151833490074\xc2\x0f\xd6\x83\x00\x00\x00\x00\x00\x00\x00\x00\xdd\x04\x00\x00\xdd\x04\x00\x00\x01\x00\x00\x00\x15\xc4\xb5\x1c\x01\x00\x00\x00\x1c\xb12\x1c\x00a\x04\x00\x08\x00\x00\x00\xdcT\xeb\xe2\x00\x00\x00\x00\x01\xeb\xc0\xbb\x19\x0f\xd0e\x0fL. O. G. S \xf0\x9f\x94\x90\x11\x1cn\x1c\x02\x00\x00\x00\xd1\x1ak\x1b\xc2\xc30J\x0e\x01\x08\x08\xa9\xf6\x8f\xddm\xf6\xebE\x14P3\x00\x02\x00\x00\x00\xc48Fj\xd5$\xb2_\xb9\xda\x05\x00\x18\x04\x12\x9f\x00\x00\x00\x04\xff\xff\xff\x7f\x15\xc4\xb5\x1c\x02\x00\x00\x00\x88Cw1+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00:\x19\x19\x1d\xd0f\x08\x83\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00Z|\xcc\x01\x88Cw1k\x00\x00R\x10\x03\x00\x00\xae\xed\x96[\x01\x00\x00\x00\xa8Y\x0e\xbd+\xa0:\t\n\xd0\x94\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x81\x00\x06ddknes\x00\x06\xf7\xd1\x82\x02\x00\x00\x00\x01\x19k\x1bc\xf0)I\x10\x01\x08\x08\x81&\x1dr9\xec:\x8a(\xa2\xa5\xa2\x91\x00\x00\x00\x02\x00\x00\x00\xc8}\x19{\x00\x00\x00\x00\x8a\x06\xff\xe7\x00\x00\x00\x00\x11d\x00\x00\xf5\xa9@K\xcfZK\xb5\x03\x00\x00\x00\x08\x00\x00\x00\x82=\x00\x00\xdb\xd4\x89I\xcfZK\xb5\x01\x00\x00\x00\t\x00\x00\x00>*l\xa5\xb9\x04\x00\x00\x00\x00\x00\x00\xc0\xfeHj\x87\x02\x00\x00\x04\x00\x00\x00'
+2026-07-04 14:38:25,157 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-04 14:38:25,157 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-04 14:38:25,164 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-04 14:38:25,173 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-04 14:38:25,174 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-04 14:38:25,180 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-04 18:50:42,193 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-04 18:50:42,204 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-04 18:50:42,325 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-04 18:50:42,325 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-04 18:50:42,325 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-04 18:50:42,325 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-04 18:50:42,325 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-04 18:50:42,330 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-04 18:50:42,332 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-04 18:50:42,332 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-04 18:50:42,332 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-04 18:50:42,338 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-04 18:50:43,901 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-04 18:50:44,116 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-04 18:50:44,116 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-04 18:50:44,118 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-04 18:50:44,121 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-04 18:50:44,868 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-04 18:50:44,870 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-04 18:50:44,870 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-04 18:50:44,870 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-04 18:50:44,870 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-04 18:50:44,870 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-04 18:51:46,438 [INFO] Assistant: 📨 От владельца: /model math
+2026-07-04 18:51:46,471 [INFO] LMStudio: 🔄 Модель переключена на: google/gemma-4-12b-qat
+2026-07-04 18:52:03,964 [INFO] Assistant: 📨 От владельца: Размышляй очень логически и обдуманно.
+2026-07-04 18:54:26,375 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 18:55:47,075 [INFO] telethon.client.updates: Got difference for channel 2322953291 updates
+2026-07-04 18:55:55,406 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 18:56:08,771 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:05:43,730 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:05:43,951 [INFO] telethon.client.updates: Got difference for channel 2497181539 updates
+2026-07-04 19:05:43,952 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:05:44,169 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-04 19:05:44,382 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.41:443/TcpFull...
+2026-07-04 19:05:45,864 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.41:443/TcpFull complete!
+2026-07-04 19:05:45,864 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=2, ip_address='149.154.167.41', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-04 19:06:48,401 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-04 19:06:50,608 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-04 19:06:50,609 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:06:51,252 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-04 19:06:51,892 [INFO] telethon.client.updates: Got difference for channel 2829561399 updates
+2026-07-04 19:06:51,893 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:07:19,737 [WARNING] telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-07-04 19:07:19,738 [INFO] telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-07-04 19:07:19,738 [INFO] telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-07-04 19:07:19,739 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.41:443/TcpFull...
+2026-07-04 19:07:19,741 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.41:443/TcpFull complete!
+2026-07-04 19:07:46,405 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 2
+2026-07-04 19:07:46,405 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.41:443/TcpFull...
+2026-07-04 19:07:46,406 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.41:443/TcpFull complete!
+2026-07-04 19:08:03,701 [INFO] Assistant: 📨 От владельца: /model fast
+2026-07-04 19:08:03,719 [INFO] LMStudio: 🔄 Модель переключена на: qwen2.5-coder-3b-instruct
+2026-07-04 19:08:06,121 [INFO] Assistant: 📨 От владельца: Используя протокол два обдуманного логически обдумывание
+2026-07-04 19:08:08,545 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:12:14,116 [ERROR] telethon.client.updates: Unhandled exception on on_owner_message
+Traceback (most recent call last):
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Limina\main.py", line 85, in on_owner_message
+    await event.respond(response)
+  File "C:\Limina\.venv\Lib\site-packages\telethon\tl\custom\message.py", line 764, in respond
+    return await self._client.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        await self.get_input_chat(), *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\messages.py", line 905, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Limina\.venv\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MessageTooLongError: Message was too long (caused by SendMessageRequest)
+2026-07-04 19:20:58,498 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:20:58,602 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-04 19:20:58,602 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:20:58,691 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-04 19:20:58,691 [INFO] telethon.network.mtprotosender: Connecting to 91.108.56.146:443/TcpFull...
+2026-07-04 19:20:58,702 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-04 19:20:58,703 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:21:01,526 [INFO] telethon.network.mtprotosender: Connection to 91.108.56.146:443/TcpFull complete!
+2026-07-04 19:21:01,527 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=5, ip_address='91.108.56.146', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-04 19:23:42,019 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:23:42,161 [INFO] telethon.client.updates: Got difference for channel 2322953291 updates
+2026-07-04 19:23:46,024 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 5
+2026-07-04 19:23:46,024 [INFO] telethon.network.mtprotosender: Disconnecting from 91.108.56.146:443/TcpFull...
+2026-07-04 19:23:46,024 [INFO] telethon.network.mtprotosender: Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-07-04 19:25:35,884 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:26:10,366 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:26:39,531 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-04 19:27:52,620 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:38:24,916 [INFO] telethon.client.updates: Got difference for channel 3122719777 updates
+2026-07-04 19:38:24,917 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-04 19:42:24,220 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-04 19:42:24,221 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-04 19:42:24,221 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-04 19:42:24,227 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-04 19:42:24,228 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-04 19:42:24,228 [INFO] telethon.network.mtprotosender: Not disconnecting (already have no connection)
+2026-07-04 19:42:24,234 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-05 11:08:25,946 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-05 11:08:25,955 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-05 11:08:26,051 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-05 11:08:26,051 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-05 11:08:26,051 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-05 11:08:26,051 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-05 11:08:26,051 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-05 11:08:26,057 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-05 11:08:26,060 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-05 11:08:26,060 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-05 11:08:26,061 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-05 11:08:26,063 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-05 11:08:27,535 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-05 11:08:27,736 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-05 11:08:27,736 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-05 11:08:27,741 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-05 11:08:27,743 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-05 11:08:28,448 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-05 11:08:28,450 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-05 11:08:28,450 [INFO] Monitor: 🚫 Исключения: {-1001836239552, 7860110248, -1002829561399, -1002447409708, -1001167129420, -1002586170533, -1001188860930}
+2026-07-05 11:08:28,450 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-05 11:08:28,451 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-05 11:08:28,451 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-05 11:23:28,380 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 11:50:55,788 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 11:50:55,789 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 11:50:58,552 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 11:51:01,206 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-05 11:51:01,207 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 11:53:28,705 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 12:05:57,729 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-05 12:05:57,729 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:05:59,236 [INFO] telethon.client.updates: Got difference for channel 2829561399 updates
+2026-07-05 12:05:59,239 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:05:59,556 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 12:05:59,822 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-05 12:08:28,713 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 12:08:28,813 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 12:20:59,662 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 12:23:28,941 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 12:35:59,473 [INFO] telethon.client.updates: Got difference for channel 2829561399 updates
+2026-07-05 12:35:59,474 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:35:59,474 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:35:59,474 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:35:59,475 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:35:59,475 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:36:00,699 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 12:36:02,017 [INFO] Monitor: 📸 Альбом 14265978155643018: 5 фото
+2026-07-05 12:36:03,139 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-05 12:36:03,139 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:38:29,042 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 12:38:29,238 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-05 12:50:57,994 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-05 12:50:57,994 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:50:57,995 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:50:57,995 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:50:57,995 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:51:00,807 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 12:51:00,985 [INFO] Monitor: 📸 Альбом 14265987173097938: 4 фото
+2026-07-05 12:51:01,013 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-05 12:51:01,014 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:51:01,014 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:51:01,015 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:51:01,015 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 12:51:04,674 [INFO] Monitor: 📸 Альбом 14265989050131082: 3 фото
+2026-07-05 12:53:29,059 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 12:53:29,169 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 13:05:55,318 [INFO] telethon.client.updates: Got difference for channel 1188860930 updates
+2026-07-05 13:05:57,714 [INFO] telethon.client.updates: Got difference for channel 1846125598 updates
+2026-07-05 13:05:57,714 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:06:00,946 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 13:06:01,131 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-05 13:06:12,346 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-05 13:06:12,347 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:08:29,177 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 13:08:29,291 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 13:08:29,292 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:08:29,732 [INFO] telethon.client.updates: Got difference for channel 1510151097 updates
+2026-07-05 13:08:29,937 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-05 13:20:57,851 [INFO] telethon.client.updates: Got difference for channel 1846125598 updates
+2026-07-05 13:21:01,059 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 13:23:29,299 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 13:23:29,401 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 13:23:29,506 [INFO] telethon.client.updates: Got difference for channel 1510151097 updates
+2026-07-05 13:35:56,855 [INFO] telethon.client.updates: Got difference for channel 1828446477 updates
+2026-07-05 13:35:56,855 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:36:01,746 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-05 13:36:01,748 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:36:04,524 [INFO] telethon.client.updates: Got difference for channel 2829561399 updates
+2026-07-05 13:36:04,836 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 13:38:29,420 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 13:38:29,530 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-05 13:38:29,531 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:38:30,082 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 13:38:30,326 [INFO] telethon.client.updates: Got difference for channel 1224527528 updates
+2026-07-05 13:38:30,604 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-05 13:46:18,979 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:46:23,866 [WARNING] Monitor: send_file не удался: You can't forward messages from a protected chat (caused by SendMediaRequest)
+2026-07-05 13:51:04,956 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 13:53:29,552 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 13:53:30,190 [INFO] telethon.client.updates: Got difference for channel 1728572563 updates
+2026-07-05 13:54:31,038 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:31,039 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:31,039 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:31,039 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:31,040 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:31,040 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 13:54:35,398 [INFO] Monitor: 📸 Альбом 14266019765138234: 6 фото
+2026-07-05 13:54:35,841 [ERROR] Monitor: Альбом в лог -1003807073500: You can't forward messages from a protected chat (caused by SendMultiMediaRequest)
+2026-07-05 14:06:05,086 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 14:06:12,775 [INFO] telethon.client.updates: Got difference for channel 1966291562 updates
+2026-07-05 14:06:12,776 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:21:05,238 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 14:23:30,223 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 14:23:30,387 [INFO] telethon.client.updates: Got difference for channel 2430611207 updates
+2026-07-05 14:23:30,513 [INFO] telethon.client.updates: Got difference for channel 2586170533 updates
+2026-07-05 14:23:30,516 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:23:31,123 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 14:36:05,446 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 14:36:05,695 [INFO] telethon.client.updates: Got difference for channel 1418440636 updates
+2026-07-05 14:36:05,711 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:38:30,391 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 14:38:34,912 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-05 14:38:34,941 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:45:51,816 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:50:57,044 [INFO] telethon.client.updates: Got difference for channel 1610581641 updates
+2026-07-05 14:51:05,564 [INFO] telethon.client.updates: Got difference for channel 1013484985 updates
+2026-07-05 14:53:30,505 [INFO] telethon.client.updates: Got difference for account updates
+2026-07-05 14:53:30,610 [INFO] telethon.client.updates: Got difference for channel 2303425867 updates
+2026-07-05 14:53:34,116 [INFO] telethon.client.updates: Got difference for channel 1510151097 updates
+2026-07-05 14:53:35,024 [INFO] telethon.client.updates: Got difference for channel 1679276000 updates
+2026-07-05 14:55:25,075 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.53:443/TcpFull...
+2026-07-05 14:55:25,093 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.53:443/TcpFull complete!
+2026-07-05 14:55:25,113 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-07-05 14:55:25,114 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-07-05 14:55:25,126 [INFO] AccountMonitor: 👁 Доп. клиенты отключены
+2026-07-05 14:55:42,441 [INFO] Assistant: 🚀 Запуск Умного ТГ Ассистента...
+2026-07-05 14:55:42,447 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-05 14:55:42,448 [INFO] TemplateManager:   📋 Шаблон загружен: ПЕРЕДАЧА_ДОКУМЕНТОВ → 'Передача документов'
+2026-07-05 14:55:42,448 [INFO] TemplateManager:   📋 Шаблон загружен: ВСТРЕЧА → 'Приглашение на встречу'
+2026-07-05 14:55:42,448 [INFO] TemplateManager:   📋 Шаблон загружен: НАПОМИНАНИЕ → 'Напоминание'
+2026-07-05 14:55:42,448 [INFO] TemplateManager:   📋 Шаблон загружен: СПАСИБО → 'Благодарность'
+2026-07-05 14:55:42,449 [INFO] TemplateManager:   📋 Шаблон загружен: ЗАДЕРЖКА → 'Уведомление о задержке'
+2026-07-05 14:55:42,453 [INFO] Database: ✅ База данных инициализирована: data/assistant.db
+2026-07-05 14:55:42,455 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-05 14:55:42,455 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.53:443/TcpFull...
+2026-07-05 14:55:42,458 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.53:443/TcpFull complete!
+2026-07-05 14:55:43,966 [INFO] Assistant: ✅ Ассистент: L. I. M. I. N. A (@L_imin_a)
+2026-07-05 14:55:44,161 [INFO] Assistant: 🔕 Игнорируем чаты (лог-каналы): {3807073500}
+2026-07-05 14:55:44,161 [INFO] AccountMonitor: 👁 Запускаю мониторинг 1 доп. аккаунта(ов)...
+2026-07-05 14:55:44,164 [INFO] telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-07-05 14:55:44,166 [INFO] telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-07-05 14:55:44,859 [INFO] AccountMonitor:   ✅ [1] Денис (+79526859678) — @ddknes
+2026-07-05 14:55:44,862 [INFO] Monitor: 📡 Монитор → [-1003807073500]
+2026-07-05 14:55:44,862 [INFO] Assistant: 👂 Ассистент слушает...
+2026-07-05 14:55:44,862 [INFO] Assistant: 📡 Лог-каналы: [-1003807073500]
+2026-07-05 14:55:44,862 [INFO] Assistant: 👁 Доп. аккаунты: ['+79526859678']
+2026-07-05 14:57:34,473 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:57:35,106 [INFO] MediaStore: 💾 Сохранено: 190476.jpg (91 KB)
+2026-07-05 14:57:35,471 [INFO] telethon.client.uploads: Uploading file of 93308 bytes in 1 chunks of 131072
+2026-07-05 14:57:36,060 [INFO] telethon.client.updates: Got difference for channel 3807073500 updates
+2026-07-05 14:57:40,216 [INFO] Monitor: 🗑 id=190476 от @Shanel_shhmarberlin | log_ref={'msg_id': 190476, 'channel': '-1003807073500', 'log_msg_id': 1169} | media=да
+2026-07-05 14:57:40,558 [INFO] telethon.client.uploads: Uploading file of 93308 bytes in 1 chunks of 131072
+2026-07-05 14:57:41,897 [INFO] Monitor: ✅ Медиа (photo) отправлено владельцу
+2026-07-05 14:57:41,930 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:57:42,017 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-05 14:57:42,107 [INFO] telethon.network.mtprotosender: Connecting to 149.154.175.56:443/TcpFull...
+2026-07-05 14:57:44,454 [INFO] telethon.network.mtprotosender: Connection to 149.154.175.56:443/TcpFull complete!
+2026-07-05 14:57:44,454 [INFO] telethon.client.telegrambaseclient: Exporting auth for new borrowed sender in DcOption(id=1, ip_address='149.154.175.56', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+2026-07-05 14:57:45,930 [INFO] MediaStore: 💾 Сохранено: 190478.jpg (91 KB)
+2026-07-05 14:58:06,829 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:58:08,815 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:58:09,053 [INFO] MediaStore: 💾 Сохранено: 190479.mp4 (436 KB)
+2026-07-05 14:58:09,548 [INFO] MediaStore: 💾 Сохранено: 190480.ogg (66 KB)
+2026-07-05 14:58:09,793 [INFO] telethon.client.uploads: Uploading file of 446565 bytes in 4 chunks of 131072
+2026-07-05 14:58:10,684 [INFO] telethon.client.uploads: Uploading file of 68409 bytes in 1 chunks of 131072
+2026-07-05 14:58:12,401 [INFO] Monitor: 🗑 id=190479 от @Shanel_shhmarberlin | log_ref=None | media=да
+2026-07-05 14:58:12,746 [INFO] telethon.client.uploads: Uploading file of 446565 bytes in 4 chunks of 131072
+2026-07-05 14:58:16,026 [INFO] Monitor: ✅ Медиа (video_note) отправлено владельцу
+2026-07-05 14:58:16,169 [INFO] Monitor: 🗑 id=190480 от @Shanel_shhmarberlin | log_ref={'msg_id': 190480, 'channel': '-1003807073500', 'log_msg_id': 1173} | media=да
+2026-07-05 14:58:16,180 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:58:16,267 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-05 14:58:16,521 [INFO] telethon.client.uploads: Uploading file of 68409 bytes in 1 chunks of 131072
+2026-07-05 14:58:17,560 [INFO] Monitor: ✅ Медиа (voice) отправлено владельцу
+2026-07-05 14:58:18,103 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:58:18,214 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-05 14:58:19,110 [INFO] MediaStore: 💾 Сохранено: 190484.ogg (66 KB)
+2026-07-05 14:58:19,323 [INFO] MediaStore: 💾 Сохранено: 190482.mp4 (436 KB)
+2026-07-05 14:58:56,414 [INFO] Monitor: 🗑 id=190485 от @Shanel_shhmarberlin | log_ref={'msg_id': 190485, 'channel': '-1003807073500', 'log_msg_id': 1178} | media=нет
+2026-07-05 14:59:05,244 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:59:06,357 [INFO] MediaStore: 💾 Сохранено: 190487.webm (189 KB)
+2026-07-05 14:59:06,710 [INFO] telethon.client.uploads: Uploading file of 193570 bytes in 2 chunks of 131072
+2026-07-05 14:59:09,325 [INFO] Monitor: 🗑 id=190487 от @Shanel_shhmarberlin | log_ref={'msg_id': 190487, 'channel': '-1003807073500', 'log_msg_id': 1181} | media=да
+2026-07-05 14:59:09,679 [INFO] telethon.client.uploads: Uploading file of 193570 bytes in 2 chunks of 131072
+2026-07-05 14:59:12,189 [INFO] Monitor: ✅ Медиа (video) отправлено владельцу
+2026-07-05 14:59:12,211 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:59:12,298 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-05 14:59:13,535 [INFO] MediaStore: 💾 Сохранено: 190489.webm (189 KB)
+2026-07-05 14:59:21,228 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:59:21,434 [INFO] MediaStore: 💾 Сохранено: 190490.webp (27 KB)
+2026-07-05 14:59:21,801 [INFO] telethon.client.uploads: Uploading file of 28294 bytes in 1 chunks of 131072
+2026-07-05 14:59:24,367 [INFO] Monitor: 🗑 id=190490 от @Shanel_shhmarberlin | log_ref={'msg_id': 190490, 'channel': '-1003807073500', 'log_msg_id': 1184} | media=да
+2026-07-05 14:59:24,721 [INFO] telethon.client.uploads: Uploading file of 28294 bytes in 1 chunks of 131072
+2026-07-05 14:59:26,091 [INFO] Monitor: ✅ Медиа (sticker) отправлено владельцу
+2026-07-05 14:59:26,116 [INFO] telethon.client.downloads: Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-07-05 14:59:26,206 [INFO] telethon.client.downloads: File lives in another DC
+2026-07-05 14:59:26,537 [INFO] MediaStore: 💾 Сохранено: 190492.webp (27 KB)
+2026-07-05 15:00:45,093 [INFO] telethon.client.telegrambaseclient: Disconnecting borrowed sender for DC 1
+2026-07-05 15:00:45,093 [INFO] telethon.network.mtprotosender: Disconnecting from 149.154.175.56:443/TcpFull...
+2026-07-05 15:00:45,094 [INFO] telethon.network.mtprotosender: Disconnection from 149.154.175.56:443/TcpFull complete!

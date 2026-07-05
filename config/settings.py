@@ -24,6 +24,7 @@ class Settings:
     log_channels: list = field(default_factory=list)
     # Аккаунты которые мониторим (пусто = только аккаунт ассистента)
     monitored_accounts: list = field(default_factory=list)
+    excluded_chat_ids: list = field(default_factory=list)
 
     # LM Studio
     lm_studio_url: str = "http://localhost:1234/v1"
@@ -66,6 +67,16 @@ class Settings:
         raw_accounts = os.getenv("MONITORED_ACCOUNTS", "")
         s.monitored_accounts = [
             a.strip() for a in raw_accounts.split(",") if a.strip()
+        ]
+
+        # Чаты-исключения (не логируются в канал, но пишутся в БД)
+        # По умолчанию чат с самой Лиминой добавляется в main.py автоматически
+        # EXCLUDED_CHATS=-1001234567890,@mychat
+        raw_excluded = os.getenv("EXCLUDED_CHATS", "")
+        excluded = [c.strip() for c in raw_excluded.split(",") if c.strip()]
+        s.excluded_chat_ids = [
+            int(c) if c.lstrip("-").isdigit() else c
+            for c in excluded
         ]
 
         s.lm_studio_url = os.getenv("LM_STUDIO_URL", "http://localhost:1234/v1")
